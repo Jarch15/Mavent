@@ -1,0 +1,205 @@
+{"GetLoanResponse": {
+   "AlertData":    [
+            {
+         "AlertMessage": "Send Initial Disclosures",
+         "AlertType": 22,
+         "AlertTypeDescription": "Send Initial Disclosures",
+         "Date": "/Date(1446188400000-0700)/"
+      },
+            {
+         "AlertMessage": "eConsent Not Yet Received",
+         "AlertType": 51,
+         "AlertTypeDescription": "eConsent Not Yet Received",
+         "Date": "/Date(1445929200000-0700)/"
+      },
+            {
+         "AlertMessage": "Oct 29",
+         "AlertType": 1002,
+         "AlertTypeDescription": "Oct 29",
+         "Date": "/Date(117615600000-0700)/"
+      },
+            {
+         "AlertMessage": "MMobile001 -  ATC (!@#$%^&*_+=-{}[]:\";',./<>?)",
+         "AlertType": 1009,
+         "AlertTypeDescription": "MMobile001 -  ATC (!@#$%^&*_+=-{}[]:\";',./<>?)",
+         "Date": "/Date(149151600000-0700)/"
+      },
+            {
+         "AlertMessage": "Oct 29",
+         "AlertType": 1010,
+         "AlertTypeDescription": "Oct 29",
+         "Date": "/Date(117615600000-0700)/"
+      }
+   ],
+   "FieldRestrictions": null,
+   "Format": "Json",
+   "LoanData":    {
+      "ApplicationTakenMethodType": "",
+      "BLTV": 75,
+      "BaseLoanAmount": 528000,
+      "BorrowerRequestedLoanAmount": 528000,
+      "CashFromToBorrowerAmount": 176000,
+      "Channel": "Banked - Retail",
+      "CombinedLtv": 75,
+      "CurrentApplicationIndex": 0,
+      "CurrentApplicationIsPrimary": true,
+      "CurrentFirstMortgageHolderType": "",
+      "DocEngine": "New_Encompass_Docs_Solution",
+      "DownPaymentPercent": 25,
+      "EmXmlVersionId": "15.145",
+      "EncompassId": "ad1c621c-15f8-458f-8174-8ab0f211fcaf",
+      "EnforceCountyLoanLimit": true,
+      "FirstAdjustmentMinimum": 3,
+      "FirstSubordinateLienAmount": 528000,
+      "InterviewerEmail": "st@abc.com",
+      "InterviewersId": "reg_loan_officer",
+      "InverviewerName": "Snehal Tayade",
+      "LenderChannel": "Retail",
+      "LoanAmortizationTermMonths": 360,
+      "LoanAmortizationType": "Fixed",
+      "LoanCreatedDate": "10/27/2015 02:50 PM",
+      "LoanCreatedDateUtc": "/Date(1445982600000)/",
+      "LoanNumber": "1510EM025770",
+      "LoanSource": "Encompass - New File",
+      "Ltv": 75,
+      "LtvPropertyValue": 704000,
+      "MaturityDate": "/Date(2390083200000)/",
+      "MersNumber": "000000000000250043",
+      "MilestoneApprovedDueDate": "/Date(1446854400000)/",
+      "MilestoneCompletedDueDate": "/Date(1447977600000)/",
+      "MilestoneCurrentDateUtc": "/Date(1445982650000)/",
+      "MilestoneCurrentName": "Started",
+      "MilestoneDocSignedDueDate": "/Date(1447372800000)/",
+      "MilestoneFileStartedDate": "/Date(1445904000000)/",
+      "MilestoneFundedDueDate": "/Date(1447718400000)/",
+      "MilestoneStage": "PREQUAL",
+      "MilestoneSubmittedDueDate": "/Date(1446681600000)/",
+      "MortgageType": "Conventional",
+      "OccupancyType": "OwnerOccupied",
+      "OpeningDocsLoanProgramType": "",
+      "OriginationDate": "/Date(1445904000000)/",
+      "PmiIndicator": false,
+      "PrincipalAndInterestMonthlyPaymentAmount": 1320,
+      "PropertyAppraisedValueAmount": 710000,
+      "PropertyEstimatedValueAmount": 700000,
+      "ProposedFirstMortgageAmount": 1320,
+      "ProposedHousingExpenseTotal": 3080,
+      "ProposedRealEstateTaxesAmount": "1,760.00",
+      "PurchasePriceAmount": 704000,
+      "ReferralSource": "Redfin",
+      "RequestedInterestRatePercent": 3,
+      "SubjectPropertyOccupancyPercent": 100,
+      "TitleHolderName1": "usha middle maurya Ms.",
+      "TitleHolderName2": "coborrower middle maurya Mr.",
+      "Tltv": 75,
+      "TotalFeesCostAmount": 704000,
+      "TotalFeesCreditAmount": 528000,
+      "TotalWireTransferAmount": 528000,
+      "TwelveMonthMortgageRentalHistoryIndicator": true,
+      "UnderwritingEscrowIndicator": false,
+      "UndiscountedRate": 3.4,
+      "UsdaGovernmentLoanType": "",
+      "UseNew2015FormsIndicator": "RESPA-TILA 2015 LE and CD"
+   },
+   "MilestoneData":    [
+            {
+         "AssociateData":          {
+            "Email": "st@abc.com",
+            "IdString": "7e2f53fd-cc93-48fa-bd88-283a8655181f",
+            "LoanAssociateType": "User",
+            "Name": "Snehal Tayade",
+            "RoleName": "File Starter",
+            "WriteAccess": "No"
+         },
+         "DateCompleted": "/Date(1445982660000-0700)/",
+         "DateStarted": "/Date(1445982660000-0700)/",
+         "Finished": true,
+         "MilestoneName": "Started",
+         "Order": 0,
+         "Reviewed": true,
+         "RoleID": 0
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(1445982660000-0700)/",
+         "Finished": false,
+         "MilestoneName": "",
+         "Order": 1,
+         "Reviewed": false,
+         "RoleID": 1
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Processing",
+         "Order": 2,
+         "Reviewed": false,
+         "RoleID": 5
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Submittal",
+         "Order": 3,
+         "Reviewed": false,
+         "RoleID": 6
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Approval",
+         "Order": 4,
+         "Reviewed": false,
+         "RoleID": 6
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Doc Preparation",
+         "Order": 5,
+         "Reviewed": false,
+         "RoleID": 5
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Docs Signing",
+         "Order": 6,
+         "Reviewed": false,
+         "RoleID": 7
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Funding",
+         "Order": 7,
+         "Reviewed": false,
+         "RoleID": 8
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Shipping",
+         "Order": 8,
+         "Reviewed": false,
+         "RoleID": 11
+      },
+            {
+         "DateCompleted": "/Date(-62135568000000-0800)/",
+         "DateStarted": "/Date(-62135568000000-0800)/",
+         "Finished": false,
+         "MilestoneName": "Completion",
+         "Order": 9,
+         "Reviewed": false,
+         "RoleID": -1
+      }
+   ],
+   "Version": "1.0"
+}}

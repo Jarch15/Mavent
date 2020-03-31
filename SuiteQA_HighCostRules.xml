@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="High Cost Rules Regression Tests Suite QA" allow-return-values="true" parallel="tests" verbose="1" thread-count="4">
+
+	<listeners>
+		<listener class-name="com.elliemae.core.Reporter.CustomReporter" />
+		<listener class-name="com.elliemae.core.listener.RetryListener"/>
+		<listener class-name="com.elliemae.core.listener.PostTestListener"/>
+		<listener class-name="com.elliemae.core.listener.SummaryReport"/>
+		<listener class-name="com.elliemae.core.listener.TestStatistics"/>		
+	</listeners>
+
+	<parameter name="environmentName" value="QA3"></parameter>
+	<parameter name="environmentUserName" value=""></parameter>
+	<parameter name="environmentPassword" value=""></parameter>
+	<parameter name="environmentClientID" value="BE11170520"></parameter>
+	<parameter name="jenkinsJobName" value=""></parameter>
+	<parameter name="updateTestStatusToJIRA" value="no"></parameter>
+	<parameter name="jiraProjectName" value="EMATF"></parameter>	
+	<parameter name="testCycleVersion" value="ATF 2.3"></parameter>	
+	
+	<test name="AK_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.AK_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="AR_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.AR_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="CA_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.CA_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+	<test name="CO_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.CO_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="CT_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.CT_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="DC_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.DC_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="FL_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.FL_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="GA_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.GA_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="IL_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.IL_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	<test name="IN_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.IN_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+	<test name="KY_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.KY_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+	
+	<test name="MA_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.MA_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+	<test name="MD_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.MD_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+	<test name="ME_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.ME_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+
+	<test name="NC_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.NC_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+
+	<test name="NJ_HighCostRulesRegressionTest">
+		<parameter name="platform" value="API"/>
+		<classes>			
+			<class name="com.elliemae.testcases.highcostrules.NJ_HighCostRulesRegressionTest">	
+				<methods>
+					<include name="verifyHighCostRules"></include>
+				</methods>				
+			</class>						
+		</classes>
+	</test>
+	
+		<test name="NM_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.NM_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>
+		
+		<test name="NV_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.NV_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>
+
+		<test name="NY_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.NY_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>
+		
+		<test name="OH_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.OH_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>
+		
+		<test name="OK_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.OK_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>
+		
+		<test name="PA_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.PA_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>		
+		
+		<test name="RI_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.RI_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>		
+
+		<test name="SC_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.SC_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<test name="TN_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.TN_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<test name="TX_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.TX_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<test name="UT_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.UT_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<test name="WI_HighCostRulesRegressionTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.highcostrules.WI_HighCostRulesRegressionTest">	
+					<methods>
+						<include name="verifyHighCostRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>						
+	
+	
+
+</suite>
+
+
+

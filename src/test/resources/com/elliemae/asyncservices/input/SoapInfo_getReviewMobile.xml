@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.web.portal.expert.comply.mavent.inventigo.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:getReviewResult soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <userName xsi:type="xsd:string">kunal.agarwal</userName>
+         <password xsi:type="xsd:string">Password1</password>
+         <companyName xsi:type="xsd:string">1234567890</companyName>
+         <transactionID xsi:type="xsd:string">$TRANSACTION_ID$</transactionID>
+      </ser:getReviewResult>
+   </soapenv:Body>
+</soapenv:Envelope>

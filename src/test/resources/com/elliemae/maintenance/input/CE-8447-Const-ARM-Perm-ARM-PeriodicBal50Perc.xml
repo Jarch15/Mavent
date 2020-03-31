@@ -1,0 +1,574 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.web.portal.expert.comply.mavent.inventigo.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:reviewDocument soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <userName xsi:type="xsd:string">kunal.agarwal</userName>
+         <password xsi:type="xsd:string">Password1</password>
+         <companyName xsi:type="xsd:string">1234567890</companyName>
+    
+     <documentFormat xsi:type="xsd:string">maventXMLConv</documentFormat>
+         <loanData xsi:type="xsd:string"><![CDATA[<DataPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Mortgage.xsd" version="1.00" customerID="1234567890" displayDbaName="Ellie Mae - Dev Account 32" submitDate="20160708" submitTime="153940000" twoPassCode="Second Pass">
+	<ServiceCode data="2comply-Lime"/>
+	<LoanID data="CE-8447-Const-ARM-Perm-ARM-PeriodicBal50Perc" id="d618c356-c51e-4689-99e1-ce64dad20040"/>
+	<BranchCode data="Main"/>
+	<EventType data="Manual-Started"/>
+	<UserID data="admin"/>
+	<CustomerOverride data="" date="" serviceGroupID="" time="" userID=""/>
+	<RuleOverride data=""/>
+	<StatusType data="Active"/>
+	<FirstGroupCode data=""/>
+	<SecondGroupCode data=""/>
+	<ThirdGroupCode data=""/>
+	<Seller data="" code=""/>
+	<Originator data=""/>
+	<ServiceData return="true">
+		<LoanDetail>
+			<AppReceivedByType data="" code=""/>
+			<PreApprovalCode data="" code=""/>
+			<PropertyAddress1 data="1 Park Plaza"/>
+			<PropertyAddress2 data=""/>
+			<PropertyCity data="Irvine"/>
+			<PropertyStateCode data="CA"/>
+			<PropertyZipCode data="92614"/>
+			<PropertyCountyName data="Orange"/>
+			<ParcelNumber data=""/>
+			<FloodCertificateDate data=""/>
+			<FloodCommunityCode data=""/>
+			<FloodPanelID data=""/>
+			<FloodZone data=""/>
+			<FloodZoneFlag data="false"/>
+			<UWDispositionCode data="" code=""/>
+			<UWDispositionDate data=""/>
+			<LoanStatusCode data="" code="Active"/>
+			<LoanStatusDate data="20160706"/>
+			<LienPositionNumber data="" code="1"/>
+			<RequestedLoanAmount data="300000.00"/>
+			<FirstMortgageAmount data="300000.00"/>
+			<SecondMortgageAmount data=""/>
+			<OtherMortgageAmount data=""/>
+			<BaseLoanAmount data="300000.00"/>
+			<GrossLoanAmount data="300000.00"/>
+			<UPBAmount data="0.00"/>
+			<PPPAmount data="0.00"/>
+			<NewLoanRefinances data=""/>
+			<NoteRate data="5.0000"/>
+			<UndiscountedRate data=""/>
+			<InitialAdjustedRate data="0.000"/>
+			<PointsInInitialAdjustedRate data=""/>
+			<HighCostBonaFideDiscountFlag data="false"/>
+			<CustomerBasisPointReduction data=""/>
+			<InterestAccrualMethod data="Actuarial"/>
+			<InterestDaysInYear data=""/>
+			<PIAmount data="1250.00"/>
+			<AmortizationTerm data="360"/>
+			<LoanTerm data="360"/>
+			<InterestOnlyTerm data="4"/>
+			<DualAmAmortizationTerm data=""/>
+			<DualAmPeriodTerm data=""/>
+			<PaymentRoundingCode data="" code="Nearest Penny"/>
+			<PaymentNearestRoundingTreatment code="Round Half Up" data=""/>
+			<PaymentsInYearNumber data="12"/>
+			<DaysInYearNumber data="365"/>
+			<FinanceChargeAmount data="167794.85"/>
+			<FinancedAmount data="300000.00"/>
+			<APR data="3.1630"/>
+			<CurrentAPR data="0.0000"/>
+			<SalesPriceAmount data="100000.00"/>
+			<AppraisedValueAmount data="100000.00"/>
+			<LTVPercent data="300.0000"/>
+			<CLTVPercent data="300.0000"/>
+			<AnnualIncomeAmount data="0.00"/>
+			<HousingRatio data=""/>
+			<DebtRatio data=""/>
+			<UpfrontMIPProrataRefundRequiredFlag data="false"/>
+			<UpfrontMIPFactor data="0.0000"/>
+			<MICollectedAtClosingMonths data=""/>
+			<MICompanyCode data="" code=""/>
+			<MIType data="" code=""/>
+			<USDAGuaranteeFeeRate data="0.0000"/>
+			<USDAAnnualFeeCollectedAtClosingMonths data=""/>
+			<DisbursementType data=""/>
+			<OriginationType data="" code="Retail"/>
+			<MortgageType data="" code="Conventional"/>
+			<OccupancyType data="" code="Primary"/>
+			<DocumentationType code="NINENA" data=""/>
+			<PropertyType data="" code="SFR Attached"/>
+			<UnitCount data=""/>
+			<TransactionType data="" code="Construction to Permanent"/>
+			<PurposeOfRefinanceCode data="" code=""/>
+			<RefinanceProgramIdentifier data=""/>
+			<AmortizationType data="" code="ARM"/>
+			<AmortizationSubType data=""/>
+			<NegAmFlag data="false"/>
+			<DemandLoanFlag data="false"/>
+			<HomesteadFlag data=""/>
+			<RefinanceRightOfRescissionExemptFlag data="false"/>
+			<MarketingProgramCode data=""/>
+			<InvestorCode data=""/>
+			<LoanProgramCode data=""/>
+			<WarehouseLineCode data=""/>
+			<AppDate data="20150815"/>
+			<CreditReportOrderDate data=""/>
+			<GFEDisclosureDate data=""/>
+			<GFEFinalDisclosureDate data=""/>
+			<InitialDisclosureDate data=""/>
+			<PriorDisclosureDate data=""/>
+			<PriorDisclosureReceivedDate data=""/>
+			<LastDisclosureDate data=""/>
+			<LastDisclosureReceivedDate data=""/>
+			<FloodDisclosureDate data=""/>
+			<Section32SignDate data=""/>
+			<DocumentSignDate data="20150820"/>
+			<RightToCancelSignedDate data="20150823"/>
+			<RightToCancelExpireDate data=""/>
+			<InitialRateLockDate data=""/>
+			<CurrentRateSetDate data=""/>
+			<CurrentRateLockDate data=""/>
+			<RegistrationLockDate data=""/>
+			<DocumentReturnDate data=""/>
+			<LoanDisbursementDate data=""/>
+			<GoodFundsDate data=""/>
+			<RecordingDate data=""/>
+			<InterestFromDate data=""/>
+			<InterestToDate data=""/>
+			<FirstPaymentDate data="20161101"/>
+			<FirstPaymentPeriodTreatment data="" code="Assume Regular Period"/>
+			<CurrentDueDate data=""/>
+			<TransferToServicingNoticeDate data=""/>
+			<InvestorTransferDate data=""/>
+			<DaysPrepaidInterestNumber data=""/>
+			<DailyPrepaidInterestAmount data="41.10"/>
+			<OddDaysPrepaidInterestAmount data=""/>
+			<OddDaysPrepaidInterestTreatment data=""/>
+			<OddDaysInterestCreditTreatment data=""/>
+			<AdverseActionNoticeDate data=""/>
+			<AdverseActionDate data=""/>
+			<CreditDecisionDate data=""/>
+			<OldMortgageDate data=""/>
+			<UWCode data=""/>
+			<BrokerDelegatedCode data=""/>
+			<FHASection data=""/>
+			<FHACaseNumber data=""/>
+			<AsIsValue data=""/>
+			<AfterImprovedValue data=""/>
+			<TotalRehabilitationCost data="350.00"/>
+			<MERSNumber data=""/>
+			<ContinuousPurchaseMoneyFlag data=""/>
+			<CreditorMakesFederalHighCostLoans data="false"/>
+			<CreditorMakesStateHighCostLoans data="false"/>
+			<LoanLevelCreditScore data=""/>
+			<MarketPricePoints data=""/>
+			<PropertyAcquiredYear data=""/>
+			<MIDropOffDate data=""/>
+			<EscrowImpoundType data=""/>
+			<UPfrontMICollectedAtClosingMonths data=""/>
+			<OtherMonthlyIncome data=""/>
+			<NetMonthlySalary data=""/>
+			<GrossMonthlySalary data=""/>
+			<VerificationOfIncome data=""/>
+			<OtherMonthlyLiability data=""/>
+			<NumberOfHouseholdMembers data=""/>
+			<MonthlyMaintenanceandUtilities data=""/>
+			<FHAAssignmentDate data=""/>
+			<FHAPreviousEndorsementDate data=""/>
+			<HomeOwnershipCounselingDisclosureDate data=""/>
+			<BrokerCompAtRateSetDateAmount data=""/>
+			<AmountSpentonEnergyImprovements data=""/>
+			<ExcludeTaxesInsFlag data=""/>
+			<PrincipalInterestTaxesInsuranceAmount data="3255.00"/>
+			<IntentToProceedDate data=""/>
+			<EstTaxInsImpoundAmount data=""/>
+			<ListofSettlementServiceProvidersProvidedDate data=""/>
+		</LoanDetail>
+		<ConstructionLoanData>
+			<AmortizationType data="" code="ARM"/>
+			<PaymentAmount data="1250.00"/>
+			<NoteRate data="3.0000"/>
+			<UndiscountedRate data=""/>
+			<HighCostBonaFideDiscountFlag data="false"/>
+			<FirstPaymentDate data="20151001"/>
+			<AmortizationTerm data="12"/>
+			<LoanTerm data="12"/>
+			<InterestOnlyTerm data="12"/>
+			<PeriodEndDate data="20161001"/>
+			<PeriodTerm data="12"/>
+			<DaysPerYear data="Periodic 360"/>
+			<PeriodBalanceType data="50%"/>
+			<RequiredInterestReserve data="true"/>
+			<InitialAcquisitionOfLand data="false"/>
+			<InspectionFee data="200"/>
+			<OtherAmount data="400.00"/>
+			<DisclosedInterest data=""/>
+			<InterestFromDate data="20150901"/>
+			<InterestToDate data="20150920"/>
+			<TILDisclosureType data="Combined"/>
+			<CommitmentAmount data="300000.00"/>
+			<ConstructionPhaseofCTPFlag data="false"/>
+			<CreditorProhibitsInterestPaymentsFlag data="true"/>
+				<ConstructionARM>
+				<IndexCode code="UST1YW" data="UST1YW" sds=""/>
+				<IndexDate data="" sds=""/>
+				<OddInitialAdjPeriod data="6"/>
+				<IndexRate data="1" sds=""/>
+				<MarginRate data="1.25"/>
+				<IndexLookBackPeriod data=""/>
+				<UndiscountedMarginRate data=""/>
+				<IndexMarginRoundingCode code="No Rounding" data="" sds=""/>
+				<IndexMarginRoundingFactor data="" sds=""/>
+				<AdjPeriod data="2"/>
+				<AdjCapRate data="1"/>
+				<InitialPeriodCapRate data="1"/>
+				<InitialPeriodFloorRate data="2"/>
+				<LifeFloorRate data="1"/>
+				<LifeCapRate data="5"/>
+				<LifeCapRateOnlyFlag data=""/>
+			</ConstructionARM>
+			<ConstructionDisclosedData>
+				<APR data=""/>
+				<FinanceChargeAmount data=""/>
+				<FinancedAmount data=""/>
+				<TotalPaymentAmount data=""/>
+			</ConstructionDisclosedData>
+			<InitialAdjustedRate data=""/>
+			<PointsInInitialAdjustedRate data=""/>
+		</ConstructionLoanData>
+		<Fee>
+			<FeeID data="Not mapped: Unknown Fee Non-Finance Charge" code="999"/>
+			<HUDID data="801"/>
+			<FeeText data="Loan Origination Fee"/>
+			<FeePaidToText data=""/>
+			<BorrowerAmount data="900"/>
+			<BorrowerPOCAmount data="0.00"/>
+			<BorrowerPTCAmount data="0.00"/>
+			<SellerAmount data="0.00"/>
+			<SellerPOCAmount data="0.00"/>
+			<OriginatorAmount data="0.00"/>
+			<OriginatorPOCAmount data="0.00"/>
+			<LenderAmount data="0.00"/>
+			<LenderPOCAmount data="0.00"/>
+			<OtherAmount data="0.00"/>
+			<OtherPOCAmount data="0.00"/>
+			<FinancedFlag data="true"/>
+			<ProviderCode data="" code=""/>
+			<PaidToCode data="" code="L"/>
+			<ReceiptFlag data=""/>
+			<ReceiptAmount data="0.00"/>
+			<FinanceChargeFlag data="false" borrower="false" jurisdiction="Lender" nonBorrower="" originator="false" other="false" lender="false" seller="false"/>
+			<PermittedtoShopFlag data="false"/>
+			<ProviderfromLendersWrittenListFlag data="true"/>
+			<FinalRecipientCode data=""/>
+			<IntegratedDisclosureSectionType data="A"/>
+			<SellerObligatedFlag data="false"/>
+			<NRBorrowerChosenFlag data="false"/>
+		</Fee>
+		
+		<Borrower id="BOR1" incomeExcludeFlag="false">
+			<BorrowerType data="" code="Individual"/>
+			<FirstName data="Osama"/>
+			<MiddleName data=""/>
+			<LastName data="BIN LADEN"/>
+			<GenerationCode data=""/>
+			<SSN data=""/>
+			<BirthDate data=""/>
+			<EthnicityCode data="" code=""/>
+			<AmericanIndianFlag data="false"/>
+			<AsianFlag data="false"/>
+			<AfricanAmericanFlag data="false"/>
+			<PacificIslanderFlag data="false"/>
+			<WhiteFlag data="false"/>
+			<RaceCode data="" code=""/>
+			<SexCode data="" code=""/>
+			<Address1 data="4055 Lankershim Blvd"/>
+			<Address2 data=""/>
+			<City data="Studio City"/>
+			<StateCode data="CA"/>
+			<ZipCode data="91604"/>
+			<PhoneNumber data=""/>
+			<EmailAddress data="kunal.agarwal@elliemae.com"/>
+			<AliasName data=""/>
+			<OtherMonthlyIncome data="0.00"/>
+			<NetMonthlySalary data="0.00"/>
+			<GrossMonthlySalary data=""/>
+			<VerificationOfIncome data="0.00"/>
+			<OtherMonthlyLiability data="0.00"/>
+			<ExperianFICOScore data=""/>
+			<TransUnionEmpiricaScore data=""/>
+			<EquifaxBEACONScore data=""/>
+			<MinimumRequiredFICOScore data=""/>
+			<IncomeTaxes>
+				<MonthlyFederalTaxWithheldAmount data=""/>
+				<MonthlyStateTaxWithheldAmount data=""/>
+				<MonthlySocialSecurityWithheldAmount data=""/>
+				<OtherMonthlyWithheldAmount data=""/>
+			</IncomeTaxes>
+		</Borrower>
+		<ARM>
+			<MarginRate data="1.0000"/>
+			<IndexRate data="0.5500"/>
+			<IndexCode data="UST1YW" code="UST1YW"/>
+			<IndexDate data=""/>
+			<IndexMarginRoundingCode data="" code="No Rounding"/>
+			<IndexMarginRoundingFactor data=""/>
+			<LifeFloorRate data="3.0000"/>
+			<LifeCapRate data="3.0000"/>
+			<OddInitialAdjPeriod data="12"/>
+			<InitialPeriodCapRate data="1.0000"/>
+			<InitialPeriodFloorRate data="1.0000"/>
+			<AdjPeriod data="1"/>
+			<AdjCapRate data="1.0000"/>
+			<NegPaymentDiscountRate data="5.0000"/>
+			<NegPaymentCapRate data=""/>
+			<RecastPeriod data=""/>
+			<MaxNegBalanceRate data=""/>
+			<NegAmPaymentPeriod data=""/>
+		</ARM>
+		<LateFee>
+			<MinimumLateFeeAmount data=""/>
+			<LateFeeAmount data="20.00"/>
+			<LateFeePercent data="0.000"/>
+			<LateFeeGracePeriod data="30"/>
+		</LateFee>
+		<ProposedHousing>
+			<HazardInsuranceAmount data="1002.00"/>
+			<RealEstateTaxAmount data="0.00"/>
+			<MIAmount data="1003.00"/>
+			<HOAAmount data="0.00"/>
+			<OtherAmount data="0.00"/>
+		</ProposedHousing>
+		<License customerID="" entityCode="Lender" skipStateLicenseCheck="true">
+			<Name data=""/>
+			<DBAName data=""/>
+			<Address1 data=""/>
+			<Address2 data=""/>
+			<City data=""/>
+			<StateCode data=""/>
+			<ZipCode data=""/>
+			<LicenseStateCode data="CA"/>
+		</License>
+		<LoanOriginator>
+			<NMLSID data="66778"/>
+			<FirstName data="Kunal"/>
+			<MiddleName data=""/>
+			<LastName data="Agarwal"/>
+			<Suffix data=""/>
+			<CompanyName data="Ellie Mae - Dev Account 32"/>
+			<CompanyNMLSID data=""/>
+		</LoanOriginator>
+		<HMDA activityYear="2016">
+			<LoanID data="1607EM000012"/>
+			<AppReceivedDate data="20160706"/>
+			<LoanType data="1"/>
+			<PropertyType code="" data=""/>
+			<LoanPurposeCode data=""/>
+			<OwnerOccupancyCode data="1"/>
+			<LoanAmount data="00300"/>
+			<PreApprovalCode data=""/>
+			<ActionCode data=""/>
+			<ActionDate data=""/>
+			<MSANumber data=""/>
+			<StateFIPSCode data="06"/>
+			<CountyFIPSCode data=""/>
+			<CensusTractNumber data=""/>
+			<AppEthnicityCode data=""/>
+			<CoAppEthnicityCode data="5"/>
+			<AppRace1Code data=""/>
+			<AppRace2Code data=""/>
+			<AppRace3Code data=""/>
+			<AppRace4Code data=""/>
+			<AppRace5Code data=""/>
+			<CoAppRace1Code data="8"/>
+			<CoAppRace2Code data=""/>
+			<CoAppRace3Code data=""/>
+			<CoAppRace4Code data=""/>
+			<CoAppRace5Code data=""/>
+			<AppSexCode data=""/>
+			<CoAppSexCode data="5"/>
+			<AppIncomeAmount data="NA"/>
+			<PurchaserTypeCode data=""/>
+			<DenialReason1Code data=""/>
+			<DenialReason2Code data=""/>
+			<DenialReason3Code data=""/>
+			<RateSpread data="NA"/>
+			<HOEPAStatus data=""/>
+			<LienStatus data=""/>
+			<Agency data=""/>
+		</HMDA>
+		<PriorDisclosedData>
+			<APR data="0.0000"/>
+			<FinanceChargeAmount data="0.00"/>
+			<PriorDisclosedOddDaysInterestAmount data=""/>
+		</PriorDisclosedData>
+		<DisclosedData>
+			<APR data="0.0000"/>
+			<CurrentAPR data="0.0000"/>
+			<FinanceChargeAmount data="0.00"/>
+			<FinancedAmount data=""/>
+			<TotalPaymentAmount data=""/>
+			<YSPAmount data=""/>
+			<PaymentChangeSchedule></PaymentChangeSchedule>
+		</DisclosedData>
+		<LenderProfileData return="true" source="USER">
+			<ProfileDetail applicationRuleID="" homeState="" lenderEntityType="STLIC" mflFlag="false" type="default"/>
+			<ProfileDetail applicationRuleID="" homeState="" lenderEntityType="STLIC" mflFlag="false" type="effective">
+				<StatutoryElection selected="false"/>
+				<Exportation targetState="false"/>
+			</ProfileDetail>
+			<SmallCreditor data=""/>
+			<ATRExemptCreditor data=""/>
+		</LenderProfileData>
+		<PrepaymentPenaltyPlan>
+			<PPPFlag data="false"/>
+			<PlanCode data="" code=""/>
+			<CustomFlag data="false"/>
+			<WaiverFlag data=""/>
+			<MaxTermLimit data=""/>
+			<PrepayOption data=""/>
+			<PPPEffectiveDate data=""/>
+			<PPPCalcStartDate data=""/>
+			<PPPCalcStartDateEvent data=""/>
+			<PPPEffectiveDateEvent data=""/>
+		</PrepaymentPenaltyPlan>
+		<ServiceParameter>
+			<ParameterData type="ServiceRequest" code="">
+				<Parameter id="1" name="ReviewResultPDF" value="true"/>
+				<Parameter id="2" name="GenerateFeeDetailInPDF" value="false"/>
+			</ParameterData>
+			<ParameterData type="CustomServiceRequests" code="">
+				<Parameter id="1" name="RunPreviewMapper" value="false"/>
+				<Parameter id="2" name="ExcludeTILRules" value="true"/>
+				<Parameter id="3" name="ExcludeGSERules" value="false"/>
+				<Parameter id="4" name="IncludeHMDARules" value="false"/>
+				<Parameter id="5" name="IncludeRateSpread" value="false"/>
+				<Parameter id="6" name="IncludeFHARules" value="true"/>
+				<Parameter id="7" name="IncludeCitiRules" value="false"/>
+				<Parameter id="8" name="IncludeOFACRules" value="true"/>
+				<Parameter id="9" name="IncludeVARules" value="false"/>
+				<Parameter id="10" name="IncludeLOComp" value=""/>
+				<Parameter id="11" name="NJ3rdPartyFeeClientPosition" value="false"/>
+				<Parameter id="12" name="WA-FeeClientPosition" value="false"/>
+				<Parameter id="13" name="RunNMLSRegistrationReviewer" value="true"/>
+				<Parameter id="14" name="IncludeTILA-ROR" value="false"/>
+				<Parameter id="15" name="ExcludeATRQMRules" value="false"/>
+				<Parameter id="16" name="FloodZoneRules" value="false"/>
+				<Parameter id="17" name="ToleranceExcludeRescissionFC" value="Yes"/>
+				<Parameter id="18" name="ToleranceExcludeDisclosureFC" value="Yes"/>
+			</ParameterData>
+			<ParameterData type="TILA_RESPA" code="">
+				<Parameter id="1" name="IncludeTILA_RESPA" value="false"/>
+			</ParameterData>
+		</ServiceParameter>
+		<CreditInformation>
+			<CreditScoreForDecisionMaking data=""/>
+			<CreditReferenceNumber data=""/>
+		</CreditInformation>
+		<ATRQM>
+			<ATRType data="Qualified Mortgage"/>
+			<QMType data="General Qualified Mortgage"/>
+			<TransactionExemptFromATRRequirementsFlag data="false"/>
+			<ATRExemptTransactionType data=""/>
+			<LoanSubjectToForwardCommitmentFlag data=""/>
+			<LoanSoldOrTransferredAfterConsummation data=""/>
+			<CreditPurpose data="Personal/Family/Household"/>
+		</ATRQM>
+		<Appraisal>
+			<PriorAcquisitionSource data=""/>
+			<PriorAcquisitionDate data=""/>
+			<SecondAppraisalDate data=""/>
+		</Appraisal>
+		<UnderwriterEvaluated>
+			<MonthlyCoveredLoanPaymentEvalFlag data=""/>
+			<MonthlySimultaneousLoanPaymentEvalFlag data=""/>
+			<MonthlyMortgageRelatedObligationsEvalFlag data=""/>
+			<DebtObligationsEvalFlag data=""/>
+			<ChildSupportObligationsEvalFlag data=""/>
+			<AlimonyObligationsEvalFlag data=""/>
+			<CurrentEmploymentStatusEvalFlag data=""/>
+			<CurrentOrExpectedIncomeEvalFlag data=""/>
+			<CurrentOrExpectedAssetsEvalFlag data=""/>
+			<CreditHistoryEvalFlag data=""/>
+			<DTIRatioEvalFlag data=""/>
+			<ResidualIncomeEvalFlag data=""/>
+			<ApprovedBy data=""/>
+			<ApprovedDate data=""/>
+			<ApprovalExpireDate data=""/>
+		</UnderwriterEvaluated>
+		<SimultaneousLoan>
+			<SimultaneousLoanDetail>
+				<LOSCalculatedMonthlyPaymentAmount data=""/>
+			</SimultaneousLoanDetail>
+		</SimultaneousLoan>
+		<PriorLoan>
+			<PriorLoanDetail>
+				<LikelyToDefaultFlag data=""/>
+				<LikelyToPreventDefaultFlag data=""/>
+				<LOSCalculatedRecastDate data=""/>
+				<LOSCalculatedAfterRecastFirstPaymentDate data=""/>
+				<LOSCalculatedNonStandardPaymentAmount data="0.00"/>
+				<PayoffLoanBalanceandClosingCostsFlag data=""/>
+				<SixMonths30DayLatePaymentFlag data="false"/>
+				<TwelveMonthLate30DayLatePaymentsFlag data=""/>
+				<ThirtyDaysPastDueFlag data=""/>
+				<ATRExemptFlag data=""/>
+				<ATRStandardFlag data=""/>
+				<QMLoanFlag data=""/>
+				<GrossLoanAmount data=""/>
+				<NoteRate data=""/>
+				<UnitCount data=""/>
+				<AmortizationTerm data=""/>
+				<LoanTerm data=""/>
+				<InterestOnlyTerm data=""/>
+				<AmortizationType data=""/>
+				<AmortizationSubType data=""/>
+				<NegAmFlag data=""/>
+				<DocumentSignDate data=""/>
+				<LoanDisbursementDate data=""/>
+				<InterestFromDate data=""/>
+				<InterestToDate data=""/>
+				<FirstPaymentDate data=""/>
+				<OutstandingBalanceAmount data=""/>
+				<CurrentPaymentAmount data=""/>
+				<PrincipalInterestTaxesInsuranceAmount data=""/>
+			</PriorLoanDetail>
+		</PriorLoan>
+		<GSEAgencyEligibility>
+			<ComplianceAtConsummationFlag data=""/>
+			<VariationFromStandardsAgreementFlag data=""/>
+			<LoanWaiverGrantedFlag data=""/>
+			<DesktopUnderwriter>
+				<UWRecommendation data=""/>
+				<DUCaseID data=""/>
+			</DesktopUnderwriter>
+			<LoanProspector>
+				<UWRecommendation data=""/>
+				<LPAUSKey data=""/>
+				<PurchaseEligibility data=""/>
+			</LoanProspector>
+			<AgencyEligibility>
+				<AgencyCaseNumber data=""/>
+				<AutomatedUnderwritingSystemType data=""/>
+				<AutomatedUnderwritingRecommendation data=""/>
+				<ScoredByFHATotalScorecardFlag data="false"/>
+				<FHATotalLoanScoreID data=""/>
+				<FHATotalScorecardRequestDate data=""/>
+				<FHATotalScorecardRequestedBy data=""/>
+				<FHATotalScorecardRiskClass data=""/>
+				<FHATotalScorecardEligibilityAssessment data=""/>
+				<CHUMSID data=""/>
+			</AgencyEligibility>
+			<Other>
+				<UWSystemType data=""/>
+				<UWRecommendation data=""/>
+			</Other>
+		</GSEAgencyEligibility>
+		<IntegratedDisclosures>
+			<FeeVarianceAdjustment>
+				<CannotIncreaseBaselineAdjustmentAmount data="0.00"/>
+				<TenPercentBaselineAdjustmentAmount data="0.00"/>
+			</FeeVarianceAdjustment>
+		</IntegratedDisclosures>
+	</ServiceData>
+	<IsTableFunded data="false"/>
+</DataPackage>]]></loanData>
+      </ser:reviewDocument>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" customerID="0033101906" submitDate="20010701" submitTime="175401" twoPassCode="Second Pass" id="" receiveTime="" certID="" completeTime="" version="" currentFlag="" xsi:noNamespaceSchemaLocation="Mortgage.xsd" batchID="" completeDate="" sendTime="" receiveDate="" customerTransID="" status="" maventStatus="" sendDate="">
+	<ServiceCode data="2comply-DI-Legal"/>
+	<LoanID data="Http-ReviewFileSize"/>
+	<BranchCode data="QA-Manual"/>
+	<EventType data=""/>
+	<UserID data=""/>
+	<CustomerOverride data="" serviceGroupID="" userID="" date="" time=""/>
+	<RuleOverride data=""/>
+	<StatusType data=""/>
+	<FirstGroupCode data=""/>
+	<SecondGroupCode data=""/>
+	<ThirdGroupCode data=""/>
+	<ServiceData return="true">
+		<LoanDetail>
+			<AppReceivedByType data="1" code="Face To Face"/>
+			<PreApprovalCode data="Not Applicable" code="3"/>
+			<PropertyAddress1 data="27662 Aliso Creek Road"/>
+			<PropertyAddress2 data=""/>
+			<PropertyCity data="Aliso Viejo"/>
+			<PropertyStateCode data="NY"/>
+			<PropertyZipCode data="92656"/>
+			<PropertyCountyName data="Orange"/>
+			<ParcelNumber data=""/>
+			<FloodCertificateDate data=""/>
+			<FloodCommunityCode data=""/>
+			<FloodPanelID data=""/>
+			<FloodZone data=""/>
+			<UWDispositionCode data="" code="Pending Decision"/>
+			<UWDispositionDate data=""/>
+			<LoanStatusCode data="New Loan" code="Active"/>
+			<LoanStatusDate data="20040405"/>
+			<LienPositionNumber data="1" code="1"/>
+			<RequestedLoanAmount data=""/>
+			<FirstMortgageAmount data="141000"/>
+			<SecondMortgageAmount data="0"/>
+			<OtherMortgageAmount data=""/>
+			<BaseLoanAmount data="12500000"/>
+			<GrossLoanAmount data="12500000"/>
+			<UPBAmount data="0"/>
+			<PPPAmount data="0"/>
+			<NoteRate data="8"/>
+			<PIAmount data="150.00"/>
+			<AmortizationTerm data="360"/>
+			<LoanTerm data="360"/>
+			<InterestOnlyTerm data="0"/>
+			<PaymentRoundingCode data="Round Up" code="Round Up"/>
+			<PaymentsInYearNumber data="12"/>
+			<DaysInYearNumber data="365"/>
+			<FinanceChargeAmount data="0"/>
+			<FinancedAmount data="0"/>
+			<APR data="9.1743"/>
+			<SalesPriceAmount data="0"/>
+			<AppraisedValueAmount data="280000"/>
+			<LTVPercent data="89.2"/>
+			<CLTVPercent data=""/>
+			<AnnualIncomeAmount data=""/>
+			<HousingRatio data=""/>
+			<DebtRatio data=""/>
+			<UpfrontMIPFactor data="0"/>
+			<MICompanyCode data="" code=""/>
+			<MIType data="" code=""/>
+			<DisbursementType data="Wire" code="Wire"/>
+			<OriginationType data="Retail" code="Retail"/>
+			<MortgageType code="FHA" data="" />
+			<OccupancyType data="1" code="Primary"/>
+			<DocumentationType data="1" code="Full"/>
+			<PropertyType data="1" code="SFR Detached"/>
+			<UnitCount data="1"/>
+			<TransactionType data="3" code="Cash Out Refinance"/>
+			<PurposeOfRefinanceCode data="" code=""/>
+			<AmortizationType data="" code="Fixed"/>
+			<NegAmFlag data="false"/>
+			<DemandLoanFlag data="false"/>
+			<HomesteadFlag data=""/>
+			<MarketingProgramCode data="Jumbo A"/>
+			<InvestorCode data=""/>
+			<LoanProgramCode data="JA-KKAQ 6/6 10YR I.O."/>
+			<WarehouseLineCode data="GPM"/>
+			<AppDate data="20080111"/>
+			<CreditReportOrderDate data=""/>
+			<InitialDisclosureDate data="20080115"/>
+			<LastDisclosureDate data="20080118"/>
+			<FloodDisclosureDate data="20080119"/>
+			<Section32SignDate data="20080120"/>
+			<DocumentSignDate data="20080125"/>
+			<RightToCancelSignedDate data="20080128"/>
+			<RightToCancelExpireDate data="20080202"/>
+			<InitialRateLockDate data="20080401"/>
+			<CurrentRateLockDate data="20080402"/>
+			<DocumentReturnDate data="20080205"/>
+			<LoanDisbursementDate data="20080401"/>
+			<GoodFundsDate data="20080401"/>
+			<RecordingDate data="20080403"/>
+			<InterestFromDate data="20080401"/>
+			<InterestToDate data="20080415"/>
+			<FirstPaymentDate data="20080501"/>
+			<CurrentDueDate data=""/>
+			<TransferToServicingNoticeDate data=""/>
+			<InvestorTransferDate data=""/>
+			<DaysPrepaidInterestNumber data="0"/>
+			<DailyPrepaidInterestAmount data=""/>
+		</LoanDetail>
+		<Fee>
+			<FeeID data="Loan Origination Fee" code="1"/>
+			<HUDID data="804"/>
+			<FeeText data="Loan Origination Fee"/>
+			<FeePaidToText data=""/>
+			<BorrowerAmount data="250"/>
+			<BorrowerPOCAmount data="120"/>
+			<SellerAmount data="0"/>
+			<SellerPOCAmount data="0"/>
+			<OriginatorAmount data="0"/>
+			<OriginatorPOCAmount data="0"/>
+			<LenderAmount data="0"/>
+			<LenderPOCAmount data="0"/>
+			<OtherAmount data="0"/>
+			<OtherPOCAmount data="0"/>
+			<FinancedFlag data="false"/>
+			<ProviderCode data=""/>
+			<PaidToCode data="" code="L" sds=""/>
+			<ReceiptFlag data=""/>
+			<ReceiptAmount data=""/>
+			<FinanceChargeFlag jurisdiction="Lender" data="false"/>
+		</Fee>
+			<Borrower id="1">
+			<BorrowerType data="6" code="Individual"/>
+			<FirstName data="FirstName"/>
+			<MiddleName data=""/>
+			<LastName data="LastName"/>
+			<GenerationCode data=""/>
+			<SSN data="999-99-9999"/>
+			<BirthDate data="19780810"/>
+			<EthnicityCode data="2" code="2"/>
+			<AmericanIndianFlag data="false"/>
+			<AsianFlag data="true"/>
+			<AfricanAmericanFlag data="false"/>
+			<PacificIslanderFlag data="false"/>
+			<WhiteFlag data="false"/>
+			<RaceCode data="" code=""/>
+			<SexCode data="2" code="1"/>
+			<Address1 data="12345 Street Ave"/>
+			<Address2 data=""/>
+			<City data="Aliso Viejo"/>
+			<StateCode data="CA"/>
+			<ZipCode data="92656"/>
+			<AliasName data="Alias1 Alias2 Alias3"/>
+		</Borrower>
+		<PPP>
+			<PPPFlag data="false"/>
+			<PlanCode data=""/>
+			<AggregateLimitPercent data=""/>
+			<AggregatePeriod data=""/>
+			<RateBasisCode data="" code=""/>
+			<MonthlyBasisCode data="" code=""/>
+			<CompareCode data="" code=""/>
+			<PPPPeriod id="1">
+				<PPPPercent data=""/>
+				<PPPMonths data="36"/>
+			</PPPPeriod>
+		</PPP>
+			<LateFee>
+			<MinimumLateFeeAmount data="0"/>
+			<LateFeeAmount data="0"/>
+			<LateFeePercent data="0"/>
+			<LateFeeGracePeriod data="0"/>
+		</LateFee>
+		<ProposedHousing>
+			<PaymentAmount data="0"/>
+			<OtherPaymentAmount data="0"/>
+			<HazardInsuranceAmount data="0"/>
+			<RealEstateTaxAmount data="0"/>
+			<MIAmount data="0"/>
+			<HOAAmount data="0"/>
+			<OtherAmount data="0"/>
+		</ProposedHousing>
+ <License customerID="" entityCode="Lender" initialEntityCode="" internalID="" skipStateLicenseCheck="true">
+  <Name data="" sds="" /> 
+  <DBAName data="" sds="" /> 
+  <Address1 data="" sds="" /> 
+  <Address2 data="" sds="" /> 
+  <City data="" sds="" /> 
+  <StateCode data="" sds="" /> 
+  <ZipCode data="" sds="" /> 
+  <LicenseStateCode data="NY" sds="" /> 
+ <LicenseData>
+  <LicenseType code="NY_MBN" data="" sds="" /> 
+  <LicenseID data="" sds="" /> 
+  <LicenseStartDate data="" /> 
+  <LicenseExpirationDate data="" /> 
+  <ExemptionFlag data="false" sds="" /> 
+  <ExemptionCode code="" data="" sds="" /> 
+  </LicenseData>
+  </License>
+
+		<DisclosedData>
+			<APR data="9.1743"/>
+			<FinanceChargeAmount data="41278.33"/>
+			<FinancedAmount data="245000.00"/>
+			<TotalPaymentAmount data="0"/>
+			<YSPAmount data="0"/>
+			<PaymentChangeSchedule>
+				<PaymentChangeStream id="1" numberOfPayment="179" date="20040501" paymentAmount="472.54"/>
+				<PaymentChangeStream id="2" numberOfPayment="1" date="20190401" paymentAmount="45076.07"/>
+			</PaymentChangeSchedule>
+		</DisclosedData>
+		<LenderProfileData return="true" source="USER">
+  <ProfileDetail homeState="KS" lenderEntityType="FNB" mflFlag="true" type="default" /> 
+ <ProfileDetail applicationRuleID="" homeState="KS" lenderEntityType="STLIC" mflFlag="false" type="effective">
+  <StatutoryElection selected="false" /> 
+  <Exportation targetState="false" /> 
+  </ProfileDetail>
+  </LenderProfileData>
+  		<ServiceParameter>
+			<ParameterData code="" type="ServiceRequest">
+				<Parameter id="1" name="ReviewResultPDF" value="true"/>
+			</ParameterData>
+		</ServiceParameter>
+
+</ServiceData>
+	  <IsTableFunded data="true" /> 
+</DataPackage>
+

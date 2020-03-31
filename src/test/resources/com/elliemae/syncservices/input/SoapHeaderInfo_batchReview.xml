@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bat="http://batch.service.web.portal.expert.comply.mavent.inventigo.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <bat:batchReview soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <userName xsi:type="xsd:string">kunal.agarwal</userName>
+         <password xsi:type="xsd:string">Password1</password>
+         <companyName xsi:type="xsd:string">1234567890</companyName>
+         <batchLoanData xsi:type="xsd:string">
+<![CDATA[

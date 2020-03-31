@@ -1,0 +1,210 @@
+<DataPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" batchID="" certID="" completeDate="" completeTime="" currentFlag="" customerID="QTP" customerTransID="" id="" maventStatus="" receiveDate="" receiveTime="" sendDate="" sendTime="" status="" submitDate="" submitTime="" twoPassCode="Second Pass" version="3.1" xsi:noNamespaceSchemaLocation="Mortgage.xsd">
+  <ServiceCode data="Intercept-DigitalRisk"/>
+  <LoanID data="Import-SchemaFix2"/>
+  <BranchCode data="Irvine-Import"/>
+  <EventType data=""/>
+  <UserID data=""/>
+  <CustomerOverride data="" date="" serviceGroupID="" time="" userID=""/>
+  <RuleOverride data=""/>
+  <StatusType data=""/>
+  <FirstGroupCode data=""/>
+  <SecondGroupCode data=""/>
+  <ThirdGroupCode data=""/><Seller code="" data=""/>
+  <Originator data=""/><ServiceData return="">
+    <LoanDetail>
+      <AppReceivedByType code="" data=""/>
+      <PreApprovalCode code="" data=""/>
+      <PropertyAddress1 data=""/>
+      <PropertyAddress2 data=""/>
+      <PropertyCity data=""/>
+      <PropertyStateCode data=""/>
+      <PropertyZipCode data=""/>
+      <PropertyCountyName data=""/>
+      <ParcelNumber data=""/>
+      <FloodCertificateDate data=""/>
+      <FloodCommunityCode data=""/>
+      <FloodPanelID data=""/>
+      <FloodZone data=""/>
+      <UWDispositionCode code="" data=""/>
+      <UWDispositionDate data=""/>
+      <LoanStatusCode code="" data=""/>
+      <LoanStatusDate data=""/>
+      <LienPositionNumber code="" data=""/>
+      <RequestedLoanAmount data=""/>
+      <FirstMortgageAmount data=""/>
+      <SecondMortgageAmount data=""/>
+      <OtherMortgageAmount data=""/>
+      <BaseLoanAmount data="0.00"/>
+      <GrossLoanAmount data="0.00"/>
+      <UPBAmount data=""/>
+      <PPPAmount data="0.00"/>
+      <NoteRate data=""/><UndiscountedRate data=""/><HighCostBonaFideDiscountFlag data=""/>
+      <InterestAccrualMethod code="Actuarial" data=""/>
+      <InterestDaysInYear code="Periodic 360" data=""/>
+      <PIAmount data="0.00"/>
+      <AmortizationTerm data=""/>
+      <LoanTerm data=""/>
+      <InterestOnlyTerm data=""/>
+      <PaymentRoundingCode code="Nearest Penny" data=""/>
+      <PaymentNearestRoundingTreatment code="Round Half Even" data=""/>
+      <PaymentsInYearNumber data="12"/>
+      <DaysInYearNumber data="365"/>
+      <FinanceChargeAmount data=""/>
+      <FinancedAmount data=""/>
+      <APR data=""/>
+      <SalesPriceAmount data="0.00"/>
+      <AppraisedValueAmount data="0.00"/>
+      <LTVPercent data="0.00"/>
+      <CLTVPercent data="0.00"/>
+      <AnnualIncomeAmount data="0.00"/>
+      <HousingRatio data=""/>
+      <DebtRatio data="0.00"/><UpfrontMIPProrataRefundRequiredFlag data=""/>
+      <UpfrontMIPFactor data=""/><MICollectedAtClosingMonths data=""/>
+      <MICompanyCode code="" data=""/>
+      <MIType code="" data=""/>
+      <DisbursementType code="" data=""/>
+      <OriginationType code="" data=""/>
+      <MortgageType code="" data=""/>
+      <OccupancyType code="" data=""/>
+      <DocumentationType code="" data=""/>
+      <PropertyType code="" data=""/>
+      <UnitCount data="0.00"/>
+      <TransactionType code="" data=""/>
+      <PurposeOfRefinanceCode code="" data=""/>
+      <AmortizationType code="" data=""/><AmortizationSubType code="" data=""/>
+      <NegAmFlag data="false"/>
+      <DemandLoanFlag data=""/>
+      <HomesteadFlag data=""/>
+      <MarketingProgramCode data=""/>
+      <InvestorCode code="" data=""/>
+      <LoanProgramCode data=""/>
+      <WarehouseLineCode code="" data=""/><GFEAppDate data=""/>
+      <AppDate data=""/>
+      <CreditReportOrderDate data=""/>
+      <InitialDisclosureDate data=""/><PriorDisclosureDate data=""/>
+      <PriorDisclosureReceivedDate data=""/><LastDisclosureDate data=""/><LastDisclosureReceivedDate data=""/>
+      <FloodDisclosureDate data=""/>
+      <Section32SignDate data=""/>
+      <DocumentSignDate data=""/>
+      <RightToCancelSignedDate data=""/>
+      <RightToCancelExpireDate data=""/>
+      <InitialRateLockDate data=""/><CurrentRateSetDate data=""/>
+      <CurrentRateLockDate data=""/><RegistrationLockDate data=""/>
+      <DocumentReturnDate data=""/>
+      <LoanDisbursementDate data=""/>
+      <GoodFundsDate data=""/>
+      <RecordingDate data=""/>
+      <InterestFromDate data=""/>
+      <InterestToDate data=""/>
+      <FirstPaymentDate data=""/>
+      <CurrentDueDate data=""/>
+      <TransferToServicingNoticeDate data=""/>
+      <InvestorTransferDate data=""/>
+      <DaysPrepaidInterestNumber data=""/>
+      <DailyPrepaidInterestAmount data=""/>
+      <OddDaysPrepaidInterestTreatment code="Prepaid Finance Charge" data=""/>
+      <OddDaysInterestCreditTreatment code="No Credit" data=""/>
+      <AdverseActionNoticeDate data=""/>
+      <AdverseActionDate data=""/>
+      <CreditDecisionDate data=""/>
+      <OldMortgageDate data=""/>
+      <UWCode data=""/>
+      <BrokerDelegatedCode data=""/>
+      <FHASection data=""/>
+      <FHACaseNumber data=""/>
+      <MERSNumber data=""/>
+      <ContinuousPurchaseMoneyFlag data=""/>
+      <LoanLevelCreditScore data=""/>
+      <MarketPricePoints data=""/>
+      <PropertyAcquiredYear data=""/>
+      <MIDropOffDate data=""/>
+      <EscrowImpoundType data=""/><TILImpoundPaymentAmount data="0.00"/>
+      
+    </LoanDetail>
+    <Borrower id="">
+      <BorrowerType code="" data=""/>
+      <FirstName data=""/>
+      <MiddleName data=""/>
+      <LastName data=""/>
+      <GenerationCode data=""/>
+      <SSN data=""/>
+      <BirthDate data=""/>
+      <EthnicityCode code="" data=""/>
+      <AmericanIndianFlag data=""/>
+      <AsianFlag data=""/>
+      <AfricanAmericanFlag data=""/>
+      <PacificIslanderFlag data=""/>
+      <WhiteFlag data=""/>
+      <RaceCode code="" data=""/>
+      <SexCode code="" data=""/>
+      <Address1 data=""/>
+      <Address2 data=""/>
+      <City data=""/>
+      <StateCode data=""/>
+      <ZipCode data=""/>
+      <PhoneNumber data=""/>
+      <EmailAddress data=""/>
+      <AliasName data=""/>
+    </Borrower>
+    
+    
+    <LateFee>
+      <MinimumLateFeeAmount data=""/>
+      <LateFeeAmount data="0.00"/>
+      <LateFeePercent data=""/>
+      <LateFeeGracePeriod data=""/>
+    </LateFee>
+    
+    <ProposedHousing>
+      <PaymentAmount data=""/>
+      <OtherPaymentAmount data=""/>
+      <HazardInsuranceAmount data=""/>
+      <RealEstateTaxAmount data=""/>
+      <MIAmount data=""/>
+      <HOAAmount data=""/>
+      <OtherAmount data=""/>
+    </ProposedHousing>
+    
+    
+    
+    
+    
+    
+    
+    <LoanOriginator><NMLSID data=""/>
+<FirstName data=""/>
+<MiddleName data=""/>
+<LastName data=""/>
+<Suffix data=""/>
+</LoanOriginator>
+    <PriorDisclosedData><APR data=""/><FinanceChargeAmount data="0.00"/></PriorDisclosedData><DisclosedData>
+      <APR data=""/><CurrentAPR data=""/>
+      <FinanceChargeAmount data="0.00"/>
+      <FinancedAmount data="0.00"/>
+      <TotalPaymentAmount data="0.00"/>
+      <YSPAmount data=""/>
+      <PaymentChangeSchedule/>
+    </DisclosedData><TILPaymentSummary><IncludesOtherImpoundsFlag data=""/>
+	<IncludesPMIFlag data=""/>
+	<IncludesMIFlag data=""/>
+	<EstimatedPaymentFrequency data=""/>
+</TILPaymentSummary><LenderProfileData return="true" source="USER"><ProfileDetail homeState="" lenderEntityType="" mflFlag="true" type="default"/><ProfileDetail applicationRuleID="" homeState="" lenderEntityType="" mflFlag="false" type="effective">
+<StatutoryElection selected="false">
+</StatutoryElection><Exportation targetState=""/>
+</ProfileDetail></LenderProfileData>
+    <PrepaymentPenaltyPlan>
+      <PPPFlag data="false"/>
+      <PlanCode data=""/>
+      <CustomFlag data="false"/>
+      <WaiverFlag data=""/>
+      <MaxTermLimit data=""/>
+      <PrepayOption data=""/>
+      <PPPEffectiveDate data=""/>
+      <PPPCalcStartDate data=""/>
+      <PPPCalcStartDateEvent data=""/>
+      <PPPEffectiveDateEvent data=""/>
+    </PrepaymentPenaltyPlan>
+    
+    
+  <ServiceParameter><ParameterData code="" type="WEB_UI"><Parameter id="1" name="TILA_MDIA_CHECKED" value="false"/><Parameter id="1" name="TILA_MDIA_DISCLOSURE_CHECKED" value="false"/><Parameter id="1" name="TILA_MDIA_NEGAM_CHECKED" value="false"/></ParameterData></ServiceParameter></ServiceData><IsTableFunded data="false"/>
+</DataPackage>

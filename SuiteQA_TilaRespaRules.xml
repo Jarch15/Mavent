@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tila Respa Rules Tests Suite QA3" allow-return-values="true" parallel="false" verbose="1" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.elliemae.core.Reporter.CustomReporter" />
+		<listener class-name="com.elliemae.core.listener.RetryListener"/>
+		<listener class-name="com.elliemae.core.listener.PostTestListener"/>
+		<listener class-name="com.elliemae.core.listener.SummaryReport"/>
+		<listener class-name="com.elliemae.core.listener.TestStatistics"/>		
+	</listeners>
+
+	<parameter name="environmentName" value="QA3"></parameter>
+	<parameter name="environmentUserName" value=""></parameter>
+	<parameter name="environmentPassword" value=""></parameter>
+	<parameter name="environmentClientID" value="BE11170520"></parameter>
+	<parameter name="jenkinsJobName" value=""></parameter>
+	<parameter name="updateTestStatusToJIRA" value="no"></parameter>
+	<parameter name="jiraProjectName" value="EMATF"></parameter>	
+	<parameter name="testCycleVersion" value="ATF 2.3"></parameter>	
+		
+		<test name="TilaRespaRulesTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.tilarules.TilaRespaRulesTest">	
+					<methods>
+						<include name="verifyTilaRespaRules"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>					
+	
+	
+
+</suite>
+
+
+

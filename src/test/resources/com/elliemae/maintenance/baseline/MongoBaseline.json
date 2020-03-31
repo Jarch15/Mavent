@@ -1,0 +1,79 @@
+{
+  "_id" : { "$oid" : "56b39542075ddd24a809d04d"},
+  "InputFormVersion" : "1.0",
+  "Metadata" : {
+    "Name" : "Form 55",
+    "Description" : "This is the description",
+    "Enabled" : true,
+    "ModifiedBy" : "dev mobile admin",
+    "ModifiedDate" : "2016-02-04T18:15:30.3924355Z",
+    "Version" : 1
+  },
+  "Assets" : [{
+      "AssetId" : "image-03",
+      "Type" : "Image",
+      "uri" : "/images/image1.gif"
+    }, {
+      "AssetId" : "image-08",
+      "Type" : "Image",
+      "uri" : "/images/image2.gif"
+    }, {
+      "AssetId" : "script-01",
+      "Type" : "Script",
+      "uri" : "/scripts/form-javascript.js"
+    }, {
+      "AssetId" : "style-01",
+      "Type" : "Style",
+      "uri" : "/css/form-stylesheet.css"
+    }],
+  "Panels" : [{
+      "id" : "panel1",
+      "row" : 1,
+      "col" : 1,
+      "rowSpan" : 1,
+      "colspan" : 1,
+      "style" : ""
+    }, {
+      "id" : "panel2",
+      "row" : 1,
+      "col" : 2,
+      "rowSpan" : 1,
+      "colspan" : 1,
+      "style" : ""
+    }],
+  "Controls" : [{
+      "id" : "panelbox1",
+      "type" : "panelbox",
+      "properties" : {
+        "ui" : {
+          "width" : 100,
+          "height" : 200,
+          "class" : "panel-container"
+        },
+        "data" : null,
+        "events" : null
+      },
+      "domPath" : "/panel1"
+    }, {
+      "id" : "textbox1",
+      "type" : "textbox",
+      "properties" : {
+        "data" : "loan.loanNumber",
+        "events" : [{
+            "change" : "changeValue()"
+          }]
+      },
+      "domPath" : "/panel1/panelbox1"
+    }],
+  "Properties" : {
+    "ui" : {
+      "width" : 100,
+      "height" : 200,
+      "class" : "form-container"
+    },
+    "data" : null,
+    "events" : [{
+        "load" : "formLoad()"
+      }]
+  }
+}

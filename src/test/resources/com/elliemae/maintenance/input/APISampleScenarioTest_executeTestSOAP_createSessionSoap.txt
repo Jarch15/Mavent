@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:plat="http://www.elliemae.com/encompass/platform">
+   <soapenv:Header>$Header</soapenv:Header>
+   <soapenv:Body>
+      <plat:SessionCreateRequest>
+         <!--Optional:-->
+         <plat:ApplicationName>EnCompass</plat:ApplicationName>
+         <plat:SecurityContext>
+           <plat:Created>$Created</plat:Created>
+            <plat:Realm>?</plat:Realm>
+            <plat:SessionId>?</plat:SessionId>
+            <!--Optional:-->
+            <plat:TokenData>?</plat:TokenData>
+            <!--Optional:-->
+            <plat:TokenType>?</plat:TokenType>
+            <plat:UserName>$UserName</plat:UserName>         
+         </plat:SecurityContext>
+      </plat:SessionCreateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

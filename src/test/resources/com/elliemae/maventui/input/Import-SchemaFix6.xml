@@ -1,0 +1,734 @@
+<DataPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" batchID="" certID="" completeDate="" completeTime="" currentFlag="" customerID="QTP" customerTransID="3b822d8f-af7e-4911-bd4c-b209e77c2dc7" id="004806080755056045249377" maventStatus="" receiveDate="" receiveTime="" sendDate="" sendTime="" status="" submitDate="" submitTime="" twoPassCode="Second Pass" version="3.1" xsi:noNamespaceSchemaLocation="Mortgage.xsd">
+  <ServiceCode data="Intercept-DigitalRisk" /> 
+  <LoanID data="Import-SchemaFix6" /> 
+  <BranchCode data="Irvine-Import" /> 
+  <EventType data="" /> 
+  <UserID data="monica.beck" /> 
+  <CustomerOverride data="" date="" serviceGroupID="" time="" userID="" /> 
+  <RuleOverride data="" /> 
+  <StatusType data="" /> 
+  <FirstGroupCode data="" /> 
+  <SecondGroupCode data="" /> 
+  <ThirdGroupCode data="" /> 
+  <Seller code="" data="" /> 
+  <Originator data="" /> 
+<ServiceData return="">
+<LoanDetail>
+  <AppReceivedByType code="" data="" /> 
+  <PreApprovalCode code="" data="" /> 
+  <PropertyAddress1 data="4050 MCKINNEY AVENUE 5" /> 
+  <PropertyAddress2 data="" /> 
+  <PropertyCity data="DALLAS" /> 
+  <PropertyStateCode data="TX" /> 
+  <PropertyZipCode data="75204" /> 
+  <PropertyCountyName data="DALLAS" /> 
+  <ParcelNumber data="" /> 
+  <FloodCertificateDate data="" /> 
+  <FloodCommunityCode data="" /> 
+  <FloodPanelID data="" /> 
+  <FloodZone data="" /> 
+  <UWDispositionCode code="" data="" /> 
+  <UWDispositionDate data="" /> 
+  <LoanStatusCode code="" data="" /> 
+  <LoanStatusDate data="" /> 
+  <LienPositionNumber code="1" data="" /> 
+  <RequestedLoanAmount data="" /> 
+  <FirstMortgageAmount data="" /> 
+  <SecondMortgageAmount data="" /> 
+  <OtherMortgageAmount data="" /> 
+  <BaseLoanAmount data="184800.00" /> 
+  <GrossLoanAmount data="184800.00" /> 
+  <UPBAmount data="" /> 
+  <PPPAmount data="0.00" /> 
+  <NoteRate data="10.7000" /> 
+  <UndiscountedRate data="" /> 
+  <HighCostBonaFideDiscountFlag data="false" /> 
+  <InterestAccrualMethod code="Actuarial" data="" /> 
+  <InterestDaysInYear code="Periodic 360" data="" /> 
+  <PIAmount data="1718.13" /> 
+  <AmortizationTerm data="360" /> 
+  <LoanTerm data="360" /> 
+  <InterestOnlyTerm data="0" /> 
+  <PaymentRoundingCode code="Nearest Penny" data="" /> 
+  <PaymentNearestRoundingTreatment code="Round Half Even" data="" /> 
+  <PaymentsInYearNumber data="12" /> 
+  <DaysInYearNumber data="365" /> 
+  <FinanceChargeAmount data="" /> 
+  <FinancedAmount data="" /> 
+  <APR data="" /> 
+  <SalesPriceAmount data="0.00" /> 
+  <AppraisedValueAmount data="232000.00" /> 
+  <LTVPercent data="80.00" /> 
+  <CLTVPercent data="80.00" /> 
+  <AnnualIncomeAmount data="81792.00" /> 
+  <HousingRatio data="" /> 
+  <DebtRatio data="45.56" /> 
+  <UpfrontMIPProrataRefundRequiredFlag data="" /> 
+  <UpfrontMIPFactor data="" /> 
+  <MICompanyCode code="" data="" /> 
+  <MIType code="" data="" /> 
+  <DisbursementType code="" data="" /> 
+  <OriginationType code="Wholesale" data="" /> 
+  <MortgageType code="Conventional" data="" /> 
+  <OccupancyType code="Primary" data="" /> 
+  <DocumentationType code="Full" data="Full Documentation" /> 
+  <PropertyType code="SFR Attached" data="" /> 
+  <UnitCount data="0.00" /> 
+  <TransactionType code="Purchase" data="" /> 
+  <PurposeOfRefinanceCode code="" data="" /> 
+  <AmortizationType code="ARM" data="" /> 
+  <AmortizationSubType code="NoNeg" data="" /> 
+  <NegAmFlag data="false" /> 
+  <DemandLoanFlag data="" /> 
+  <HomesteadFlag data="" /> 
+  <MarketingProgramCode data="" /> 
+  <InvestorCode code="" data="" /> 
+  <LoanProgramCode data="" /> 
+  <WarehouseLineCode code="" data="" /> 
+  <GFEAppDate data="20060629" /> 
+  <AppDate data="20060116" /> 
+  <CreditReportOrderDate data="" /> 
+  <InitialDisclosureDate data="" /> 
+  <PriorDisclosureDate data="" sds="" /> 
+  <PriorDisclosureReceivedDate data="" sds="" /> 
+  <LastDisclosureDate data="" /> 
+  <LastDisclosureReceivedDate data="20060714" sds="" /> 
+  <FloodDisclosureDate data="" /> 
+  <Section32SignDate data="" /> 
+  <DocumentSignDate data="20060714" /> 
+  <RightToCancelSignedDate data="" /> 
+  <RightToCancelExpireDate data="" /> 
+  <InitialRateLockDate data="" /> 
+  <CurrentRateSetDate data="20060629" /> 
+  <CurrentRateLockDate data="" /> 
+  <DocumentReturnDate data="" /> 
+  <LoanDisbursementDate data="20060714" /> 
+  <GoodFundsDate data="" /> 
+  <RecordingDate data="" /> 
+  <InterestFromDate data="20060714" /> 
+  <InterestToDate data="20060801" /> 
+  <FirstPaymentDate data="20060901" /> 
+  <CurrentDueDate data="" /> 
+  <TransferToServicingNoticeDate data="" /> 
+  <InvestorTransferDate data="" /> 
+  <DaysPrepaidInterestNumber data="" /> 
+  <DailyPrepaidInterestAmount data="" /> 
+  <OddDaysPrepaidInterestTreatment code="Prepaid Finance Charge" data="" /> 
+  <OddDaysInterestCreditTreatment code="No Credit" data="" /> 
+  <AdverseActionNoticeDate data="" /> 
+  <AdverseActionDate data="" /> 
+  <CreditDecisionDate data="" /> 
+  <OldMortgageDate data="" /> 
+  <UWCode data="" /> 
+  <BrokerDelegatedCode data="" /> 
+  <FHASection data="" /> 
+  <FHACaseNumber data="" /> 
+  <MERSNumber data="" /> 
+  <ContinuousPurchaseMoneyFlag data="" /> 
+  <LoanLevelCreditScore data="" /> 
+  <MarketPricePoints data="" /> 
+  <PropertyAcquiredYear data="" /> 
+  <MIDropOffDate data="" /> 
+  <EscrowImpoundType data="" /> 
+  <TILImpoundPaymentAmount data="0.00" /> 
+  </LoanDetail>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="9" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Processing Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="500.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="O" data="O" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="116" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Application Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="60.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="O" data="O" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="99" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Broker Fees" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="5152.80" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="O" data="O" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="107" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Tax Related Service Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="65.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="123" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Funding Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="50.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="L" data="L" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="8" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Underwriting Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="950.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="L" data="L" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="102" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Flood Certification Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="15.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="31" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Prepaid Interest" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="988.74" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="L" data="L" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="104" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Document Preparation Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="160.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="85.00" sds="" /> 
+  <SellerPOCAmount data="85.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="59" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Lender's Title Policy" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="261.95" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="60" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Owner's Title Policy" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="0.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="1594.00" sds="" /> 
+  <SellerPOCAmount data="1594.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="101" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Escrow Account Servicing Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="250.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="250.00" sds="" /> 
+  <SellerPOCAmount data="250.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="999" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Unknown Fees Finance Charge" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="2.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="1.00" sds="" /> 
+  <SellerPOCAmount data="1.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="998" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Unknown Fees Non-Finance Charge" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="0.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="46.58" sds="" /> 
+  <SellerPOCAmount data="46.58" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="143" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Courier Fee" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="65.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="65.00" sds="" /> 
+  <SellerPOCAmount data="65.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="66" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Recording Fees-Mortgage/Deed of Trust" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="64.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="24.00" sds="" /> 
+  <SellerPOCAmount data="24.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="998" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Unknown Fees Non-Finance Charge" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="0.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="200.00" sds="" /> 
+  <SellerPOCAmount data="200.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="998" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Unknown Fees Non-Finance Charge" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="0.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="325.00" sds="" /> 
+  <SellerPOCAmount data="325.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Fee>
+  <LoanFeeNo data="" /> 
+  <FeeID code="206" data="" /> 
+  <HUDID data="" sds="" /> 
+  <FeeText data="Homeowner's Dues" sds="" /> 
+  <FeePaidToText data="" sds="" /> 
+  <BorrowerAmount data="290.00" sds="" /> 
+  <BorrowerPOCAmount data="0.00" /> 
+  <SellerAmount data="0.00" sds="" /> 
+  <SellerPOCAmount data="0.00" /> 
+  <OriginatorAmount data="0.00" sds="" /> 
+  <OriginatorPOCAmount data="0.00" /> 
+  <LenderAmount data="0.00" sds="" /> 
+  <LenderPOCAmount data="0.00" /> 
+  <OtherAmount data="0.00" sds="" /> 
+  <OtherPOCAmount data="0.00" /> 
+  <FinancedFlag data="false" /> 
+  <ProviderCode code="" data="" sds="" /> 
+  <PaidToCode code="P" data="P" sds="" /> 
+  <ReceiptFlag data="" sds="" /> 
+  <ReceiptAmount data="" /> 
+  </Fee>
+<Borrower id="">
+  <BorrowerType code="" data="" /> 
+  <FirstName data="GARY" /> 
+  <MiddleName data="D" /> 
+  <LastName data="GLICK" /> 
+  <GenerationCode data="" /> 
+  <SSN data="" /> 
+  <BirthDate data="" /> 
+  <EthnicityCode code="" data="" /> 
+  <AmericanIndianFlag data="" /> 
+  <AsianFlag data="" /> 
+  <AfricanAmericanFlag data="" /> 
+  <PacificIslanderFlag data="" /> 
+  <WhiteFlag data="" /> 
+  <RaceCode code="" data="" /> 
+  <SexCode code="" data="" /> 
+  <Address1 data="" /> 
+  <Address2 data="" /> 
+  <City data="" /> 
+  <StateCode data="" /> 
+  <ZipCode data="" /> 
+  <PhoneNumber data="" /> 
+  <EmailAddress data="" /> 
+  <AliasName data="" /> 
+  </Borrower>
+<ARM>
+  <MarginRate data="6.1000" /> 
+  <IndexRate data="5.6090" /> 
+  <IndexCode code="LIBOR6M" data="" sds="" /> 
+  <IndexDate data="" /> 
+  <IndexLookBackPeriod data="" /> 
+  <IndexMarginRoundingCode code="Round Up Factor" data="" sds="" /> 
+  <IndexMarginRoundingFactor data="0.1250" sds="" /> 
+  <IndexMarginRoundingMethod code="Round Index Plus Margin" data="" /> 
+  <IndexMarginNearestRoundingTreatment code="Round Half Up" data="" /> 
+  <LifeFloorRate data="6.1000" /> 
+  <LifeCapRate data="6.0000" /> 
+  <LifeCapRateOnlyFlag data="false" /> 
+  <OddInitialAdjPeriod data="24" /> 
+  <InitialPeriodCapRate data="3.0000" /> 
+  <InitialPeriodFloorRate data="4.6000" /> 
+  <AdjPeriod data="6" /> 
+  <AdjCapRate data="1.0000" /> 
+  <NegPaymentDiscountRate data="" /> 
+  <NegPaymentCapRate data="" /> 
+  <NegPaymentFloorRate data="" /> 
+  <RecastPeriod data="" /> 
+  <MaxNegBalanceRate data="" /> 
+  <NegAmPaymentPeriod data="" /> 
+  <NegAmSubsequentPaymentPeriod data="" /> 
+  <NegAmMinimumOptionFlag data="false" /> 
+  </ARM>
+<LateFee>
+  <MinimumLateFeeAmount data="" /> 
+  <LateFeeAmount data="0.00" /> 
+  <LateFeePercent data="6.0000" /> 
+  <LateFeeGracePeriod data="15" /> 
+  </LateFee>
+<ProposedHousing>
+  <PaymentAmount data="" /> 
+  <OtherPaymentAmount data="" /> 
+  <HazardInsuranceAmount data="" /> 
+  <RealEstateTaxAmount data="" /> 
+  <MIAmount data="" /> 
+  <HOAAmount data="" /> 
+  <OtherAmount data="" /> 
+  </ProposedHousing>
+<License customerID="" entityCode="Lender" internalID="" skipStateLicenseCheck="true">
+  <Name data="" /> 
+  <DBAName data="" /> 
+  <Address1 data="" /> 
+  <Address2 data="" /> 
+  <City data="" /> 
+  <StateCode data="" /> 
+  <ZipCode data="" /> 
+  <LicenseStateCode data="TX" /> 
+<LicenseData>
+  <LicenseType code="NL" data="" sds="" /> 
+  <LicenseID data="" sds="" /> 
+  <LicenseStartDate data="" /> 
+  <LicenseExpirationDate data="" /> 
+  <ExemptionFlag data="false" sds="" /> 
+  <ExemptionCode code="" data="" sds="" /> 
+  </LicenseData>
+  </License>
+<License customerID="" entityCode="Broker" internalID="" skipStateLicenseCheck="true">
+  <Name data="" /> 
+  <DBAName data="" /> 
+  <Address1 data="" /> 
+  <Address2 data="" /> 
+  <City data="" /> 
+  <StateCode data="" /> 
+  <ZipCode data="" /> 
+  <LicenseStateCode data="TX" /> 
+<LicenseData>
+  <LicenseType code="NL" data="" sds="" /> 
+  <LicenseID data="" sds="" /> 
+  <LicenseStartDate data="" /> 
+  <LicenseExpirationDate data="" /> 
+  <ExemptionFlag data="false" sds="" /> 
+  <ExemptionCode code="" data="" sds="" /> 
+  </LicenseData>
+  </License>
+<LoanOriginator>
+  <NMLSID data="" /> 
+  <FirstName data="" /> 
+  <MiddleName data="" /> 
+  <LastName data="" /> 
+  <Suffix data="" /> 
+  </LoanOriginator>
+<PriorDisclosedData>
+  <APR data="" sds="" /> 
+  <FinanceChargeAmount data="0.00" sds="" /> 
+  </PriorDisclosedData>
+<DisclosedData>
+  <APR data="12.038000" /> 
+  <CurrentAPR data="" /> 
+  <FinanceChargeAmount data="490391.80" /> 
+  <FinancedAmount data="176358.46" /> 
+  <TotalPaymentAmount data="666750.26" /> 
+  <YSPAmount data="" /> 
+  <PaymentChangeSchedule /> 
+  </DisclosedData>
+<TILPaymentSummary>
+  <IncludesOtherImpoundsFlag data="" /> 
+  <IncludesPMIFlag data="" /> 
+  <IncludesMIFlag data="" /> 
+  <EstimatedPaymentFrequency data="" /> 
+  </TILPaymentSummary>
+<LenderProfileData return="true" source="USER">
+<ProfileDetail applicationRuleID="" homeState="" lenderEntityType="STLIC" mflFlag="false" type="default">
+<StatutoryElection selected="">
+<ActData jurisdictionCode="">
+  <Act applicationRuleID="" id="" /> 
+  </ActData>
+  </StatutoryElection>
+  <Exportation targetState="" /> 
+  </ProfileDetail>
+<ProfileDetail applicationRuleID="" homeState="" lenderEntityType="STLIC" mflFlag="false" type="effective">
+  <StatutoryElection selected="false" /> 
+  <Exportation targetState="false" /> 
+  </ProfileDetail>
+  </LenderProfileData>
+<PrepaymentPenaltyPlan>
+  <PPPFlag data="true" /> 
+  <PlanCode data="" /> 
+  <CustomFlag data="true" /> 
+  <WaiverFlag data="false" /> 
+  <MaxTermLimit data="24" /> 
+  <PrepayOption data="Partial" /> 
+  <PPPEffectiveDate data="" /> 
+  <PPPCalcStartDate data="" /> 
+  <PPPCalcStartDateEvent data="Consummation Date" /> 
+  <PPPEffectiveDateEvent data="Consummation Date" /> 
+<PlanData sds="">
+ <PlanPeriod id="1">
+  <CompareCode code="" data="Equal" sds="" /> 
+  <PPPMonths data="" sds="" /> 
+<CalcData>
+  <CalcMethod data="Interest" /> 
+  <PPPPercent data="100" sds="" /> 
+  <PPPCalcRate data="" /> 
+  <FlatPPPAmount data="" /> 
+  <NumberOfCalcMonths data="6" /> 
+  <InterestIndicator data="Monthly" /> 
+  <RateBasisCode code="" data="Amount Prepaid" sds="" /> 
+  <AggregateBasisCode code="" data="Original Loan Amount" /> 
+  <AggregateLimitPercent data="20" sds="" /> 
+  </CalcData>
+  </PlanPeriod>
+  </PlanData>
+  </PrepaymentPenaltyPlan>
+<ServiceParameter>
+<ParameterData code="" type="WEB_UI">
+  <Parameter id="1" name="TILA_MDIA_CHECKED" value="false" /> 
+  <Parameter id="1" name="TILA_MDIA_DISCLOSURE_CHECKED" value="false" /> 
+  <Parameter id="1" name="TILA_MDIA_NEGAM_CHECKED" value="false" /> 
+  </ParameterData>
+  </ServiceParameter>
+  </ServiceData>
+  <IsTableFunded data="false" /> 
+  </DataPackage>

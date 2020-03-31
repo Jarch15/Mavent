@@ -1,0 +1,401 @@
+<DataPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" batchID="" certID="" completeDate="" completeTime="" createDate="20050202" createTime="121438390" createUserID="1234567890" currentFlag="true" customerID="1234567890" customerTransID="" fileStatus="" id="" maventStatus="PASS" modifyDate="20050202" modifyTime="122308" modifyUserID="0009020105018" receiveDate="" receiveTime="" sendDate="20050202" sendTime="122309359" status="PASS" submitDate="" submitTime="" twoPassCode="Second Pass" version="" xsi:noNamespaceSchemaLocation="Mortgage.xsd">
+	<ServiceCode data="2comply-DI-Lic"/>
+	<LoanID data="Import-NewDocEng-EleTrue-SchemaVal"/>
+	<BranchCode data="Irvine"/>
+	<EventType data="Manual-Closing"/>
+	<UserID data="kelly.nguyen"/>
+	<CustomerOverride data="" date="" serviceGroupID="" time="" userID=""/>
+	<RuleOverride data=""/>
+	<StatusType data=""/>
+	<FirstGroupCode data=""/>
+	<SecondGroupCode data=""/>
+	<ThirdGroupCode data=""/>
+	<ServiceData return="">
+		<LoanDetail>
+			<AppReceivedByType code="" data=""/>
+			<PreApprovalCode code="" data=""/>
+			<PropertyAddress1 data="123 Main St."/>
+			<PropertyAddress2 data=""/>
+			<PropertyCity data="Providence"/>
+			<PropertyStateCode data="NJ"/>
+			<PropertyZipCode data="72057"/>
+			<PropertyCountyName data="Cook County"/>
+			<ParcelNumber data=""/>
+			<FloodCertificateDate data=""/>
+			<FloodCommunityCode data=""/>
+			<FloodPanelID data=""/>
+			<FloodZone data=""/>
+			<UWDispositionCode code="" data=""/>
+			<UWDispositionDate data=""/>
+			<LoanStatusCode code="" data=""/>
+			<LoanStatusDate data=""/>
+			<LienPositionNumber code="1" data=""/>
+			<RequestedLoanAmount data=""/>
+			<FirstMortgageAmount data=""/>
+			<SecondMortgageAmount data=""/>
+			<OtherMortgageAmount data=""/>
+			<BaseLoanAmount data="40000.00"/>
+			<GrossLoanAmount data="40000.00"/>
+			<UPBAmount data=""/>
+			<PPPAmount data="0.00"/>
+			<NoteRate data="2.00"/>
+			<PIAmount data="1000.00"/>
+			<AmortizationTerm data="360"/>
+			<LoanTerm data="48"/>
+			<InterestOnlyTerm data="0"/>
+			<PaymentRoundingCode code="Nearest Penny" data=""/>
+			<PaymentsInYearNumber data="12"/>
+			<DaysInYearNumber data="365"/>
+			<FinanceChargeAmount data=""/>
+			<FinancedAmount data=""/>
+			<APR data="15.0"/>
+			<SalesPriceAmount data="0.00"/>
+			<AppraisedValueAmount data="207000.00"/>
+			<LTVPercent data="10"/>
+			<CLTVPercent data="90"/>
+			<AnnualIncomeAmount data="0.00"/>
+			<HousingRatio data=""/>
+			<DebtRatio data="50"/>
+			<UpfrontMIPFactor data=""/>
+			<MICompanyCode code="" data=""/>
+			<MIType code="" data=""/>
+			<DisbursementType code="" data=""/>
+			<OriginationType code="Retail" data=""/>
+			<MortgageType code="Conventional" data=""/>
+			<OccupancyType code="Primary" data=""/>
+			<DocumentationType code="" data=""/>
+			<PropertyType code="SFR Detached" data=""/>
+			<UnitCount data=""/>
+			<TransactionType code="Rate and Term Refinance" data=""/>
+			<PurposeOfRefinanceCode code="" data=""/>
+			<AmortizationType code="ARM" data=""/>
+			<AmortizationSubType code="" data=""/>
+			<NegAmFlag data="false"/>
+			<DemandLoanFlag data=""/>
+			<HomesteadFlag data=""/>
+			<MarketingProgramCode data=""/>
+			<InvestorCode code="" data=""/>
+			<LoanProgramCode data=""/>
+			<WarehouseLineCode code="" data=""/>
+			<AppDate data="20040601"/>
+			<CreditReportOrderDate data=""/>
+			<InitialDisclosureDate data=""/>
+			<LastDisclosureDate data=""/>
+			<FloodDisclosureDate data=""/>
+			<Section32SignDate data=""/>
+			<DocumentSignDate data="20040705"/>
+			<RightToCancelSignedDate data=""/>
+			<RightToCancelExpireDate data="20071218"/>
+			<InitialRateLockDate data=""/>
+			<CurrentRateSetDate data="20071205" /> 
+			<CurrentRateLockDate data=""/>
+			<RegistrationLockDate data=""/>
+			<DocumentReturnDate data=""/>
+			<LoanDisbursementDate data=""/>
+			<GoodFundsDate data=""/>
+			<RecordingDate data=""/>
+			<InterestFromDate data="20071216"/>
+			<InterestToDate data="20071231"/>
+			<FirstPaymentDate data="20080101"/>
+			<CurrentDueDate data=""/>
+			<TransferToServicingNoticeDate data=""/>
+			<InvestorTransferDate data=""/>
+			<DaysPrepaidInterestNumber data=""/>
+			<DailyPrepaidInterestAmount data=""/>
+			<OddDaysPrepaidInterestAmount data="30.20"/>
+			<OddDaysPrepaidInterestTreatment code="Prepaid Finance Charge" data=""/>
+			<OddDaysInterestCreditTreatment code="No Credit" data=""/>
+			<AdverseActionNoticeDate data=""/>
+			<AdverseActionDate data=""/>
+			<CreditDecisionDate data=""/>
+			<OldMortgageDate data=""/>
+			<UWCode data=""/>
+			<BrokerDelegatedCode data=""/>
+			<FHASection data=""/>
+			<FHACaseNumber data=""/>
+			<MERSNumber data=""/>
+			<ContinuousPurchaseMoneyFlag data="false"/>
+
+<CreditorMakesFederalHighCostLoans data="true"/>
+<CreditorMakesStateHighCostLoans data="true"/>
+
+			<LoanLevelCreditScore data="740"/>
+			<MarketPricePoints data=""/>
+			<PropertyAcquiredYear data="2009"/>
+			<MIDropOffDate data=""/>
+			<EscrowImpoundType data=""/>
+			<UPfrontMICollectedAtClosingMonths data="210.00"/>
+			<OtherMonthlyIncome data="500.00"/>
+			<NetMonthlySalary data="4100.00"/>
+			<GrossMonthlySalary data="5500.00"/>
+			<VerificationOfIncome data="4200.00"/>
+			<OtherMonthlyLiability data="250.00"/>
+			<NumberOfHouseholdMembers data="4"/>
+			<MonthlyMaintenanceandUtilities data="150.00"/>
+			<FHAAssignmentDate data=""/>
+		</LoanDetail>
+
+		<Fee>
+			<FeeID code="1" data=""/>
+			<HUDID data="800" sds=""/>
+			<FeeText data="Fee 1" sds=""/>
+			<FeePaidToText data="" sds=""/>
+			<BorrowerAmount data="2000.00" sds=""/>
+			<BorrowerPOCAmount data="0.0"/>
+			<SellerAmount data="0.0" sds=""/>
+			<SellerPOCAmount data="0.0"/>
+			<OriginatorAmount data="0.0" sds=""/>
+			<OriginatorPOCAmount data="0.0"/>
+			<LenderAmount data="0.0" sds=""/>
+			<LenderPOCAmount data="0.0"/>
+			<OtherAmount data="0.0" sds=""/>
+			<OtherPOCAmount data="0.0"/>
+			<FinancedFlag data="false"/>
+			<ProviderCode code="" data="" sds=""/>
+			<PaidToCode code="L" data="" sds=""/>
+			<ReceiptFlag data="" sds=""/>
+			<ReceiptAmount data=""/>
+		</Fee>
+
+		<Borrower id="">
+			<BorrowerType code="" data=""/>
+			<FirstName data="Kelly"/>
+			<MiddleName data=""/>
+			<LastName data="Nguyen"/>
+			<GenerationCode data="Jr"/>
+			<SSN data="645084728"/>
+			<BirthDate data="01/01/1970"/>
+			<EthnicityCode code="" data=""/>
+			<AmericanIndianFlag data=""/>
+			<AsianFlag data=""/>
+			<AfricanAmericanFlag data=""/>
+			<PacificIslanderFlag data=""/>
+			<WhiteFlag data=""/>
+			<RaceCode code="" data=""/>
+			<SexCode code="" data=""/>
+			<Address1 data="123 Main St."/>
+			<Address2 data=""/>
+			<City data="Anytown"/>
+			<StateCode data=""/>
+			<ZipCode data=""/>
+			<PhoneNumber data="(999) 555-1212"/>
+			<EmailAddress data="borrower@anywhere.com"/>
+			<AliasName data=""/>
+		</Borrower>
+
+		<PPP planID="">
+			<PPPFlag data=""/>
+			<PlanCode data=""/>
+			<AggregateLimitPercent data=""/>
+			<AggregatePeriod data=""/>
+			<RateBasisCode data="" code=""/>
+			<MonthlyBasisCode data="" code=""/>
+			<CompareCode data="" code=""/>
+			<PPPPeriod id="" sds="">
+				<PPPPercent data="" sds=""/>
+				<PPPMonths data="" sds=""/>
+			</PPPPeriod>
+		</PPP>
+		<ARM>
+			<MarginRate data="1.625"/> 
+  			<IndexRate data="1.27"/> 
+  			<IndexCode code="FRBBankPrime" sds="" data=""/> 
+  			<IndexDate data="2003-11-10"/> 
+  			<IndexMarginRoundingCode code="Nearest Factor" sds="" data=""/> 
+  			<IndexMarginRoundingFactor sds="" data="0.125"/> 
+  			<LifeFloorRate data="5.625"/> 
+  			<LifeCapRate data="0.0"/> 
+  			<OddInitialAdjPeriod data="0"/> 
+  			<InitialPeriodCapRate data="12.0"/> 
+  			<InitialPeriodFloorRate data="0.0"/> 
+  			<AdjPeriod data="6"/> 
+  			<AdjCapRate data="12.0"/> 
+  			<NegPaymentCapRate data="0.0"/> 
+  			<RecastPeriod data="0"/> 
+  			<MaxNegBalanceRate data="0.0"/> 
+  			<NegAmPaymentPeriod data="0"/> 
+		</ARM>
+		<LateFee>
+			<MinimumLateFeeAmount data=""/>
+			<LateFeeAmount data="18.00"/>
+			<LateFeePercent data="4"/>
+			<LateFeeGracePeriod data="10"/>
+		</LateFee>
+		<HELOC>
+            <DrawAmount data="100.00"/>
+            <MinimumSubsequentDrawAmount data=""/>
+            <DrawYears data=""/>
+            <RepaymentYears data=""/>
+            <CashAmount data=""/>
+            <LOCTypeCode code="Variable" data=""/>
+            <InitialPeriodicRate data=""/>
+            <CurrentPeriodicRate data=""/>
+            <PeriodicRateFrequency data=""/>
+            <PaymentPeriod type="Draw">
+                <PeriodMonths data="60"/>
+                <PaymentOption data=""/>
+                <AdditionalPayment>
+                    <Amount data=""/>
+                    <Percent basisCode="" data=""/>
+                    <Fraction basisCode="" data=""/>
+                </AdditionalPayment>
+                <MinimumPayment>
+                    <Amount data=""/>
+                    <Percent basisCode="" data=""/>
+                    <Fraction basisCode="" data=""/>
+                </MinimumPayment>
+            </PaymentPeriod>
+            <PaymentPeriod type="Repayment">
+                <PeriodMonths data="120"/>
+                <PaymentOption data=""/>
+                <AdditionalPayment>
+                    <Amount data=""/>
+                    <Percent basisCode="" data=""/>
+                    <Fraction basisCode="" data=""/>
+                </AdditionalPayment>
+                <MinimumPayment>
+                    <Amount data=""/>
+                    <Percent basisCode="" data=""/>
+                    <Fraction basisCode="" data=""/>
+                </MinimumPayment>
+            </PaymentPeriod>
+        </HELOC>
+		<ProposedHousing>
+			<PaymentAmount data=""/>
+			<OtherPaymentAmount data=""/>
+			<HazardInsuranceAmount data=""/>
+			<RealEstateTaxAmount data=""/>
+			<MIAmount data=""/>
+			<HOAAmount data=""/>
+			<OtherAmount data=""/>
+		</ProposedHousing>
+		<License customerID="" entityCode="Lender" initialEntityCode="" internalID="" skipStateLicenseCheck="true"><Name data="" sds=""/>
+<DBAName data="" sds=""/>
+<Address1 data="" sds=""/>
+<Address2 data="" sds=""/>
+<City data="" sds=""/>
+<StateCode data="" sds=""/>
+<ZipCode data="" sds=""/>
+<LicenseStateCode data="NJ" sds=""/>
+<LicenseData><LicenseType code="NL" data="" sds=""/>
+<LicenseID data="" sds=""/>
+<LicenseStartDate data=""/>
+<LicenseExpirationDate data=""/>
+<ExemptionFlag data="false" sds=""/>
+<ExemptionCode code="" data="" sds=""/>
+</LicenseData>
+</License><License customerID="" entityCode="Broker" initialEntityCode="" internalID="" skipStateLicenseCheck="true"><Name data="" sds=""/>
+<DBAName data="" sds=""/>
+<Address1 data="" sds=""/>
+<Address2 data="" sds=""/>
+<City data="" sds=""/>
+<StateCode data="" sds=""/>
+<ZipCode data="" sds=""/>
+<LicenseStateCode data="NJ" sds=""/>
+<LicenseData><LicenseType code="NL" data="" sds=""/>
+<LicenseID data="" sds=""/>
+<LicenseStartDate data=""/>
+<LicenseExpirationDate data=""/>
+<ExemptionFlag data="false" sds=""/>
+<ExemptionCode code="" data="" sds=""/>
+</LicenseData>
+</License>
+		<HMDA>
+			<LoanID data="dton7"/>
+			<AppReceivedDate data="20070801"/>
+			<LoanType data="1"/>
+			<PropertyType data="1"/>
+			<LoanPurposeCode data="1"/>
+			<OwnerOccupancyCode data="1"/>
+			<LoanAmount data="100000"/>
+			<PreApprovalCode data="2"/>
+			<ActionCode data="1"/>
+			<ActionDate data="20070802"/>
+			<MSANumber data="0"/>
+			<StateFIPSCode data="Adair"/>
+			<CountyFIPSCode data="001"/>
+			<CensusTractNumber data="0.00.00"/>
+			<AppEthnicityCode data="2"/>
+			<CoAppEthnicityCode data="5"/>
+			<AppRace1Code data="5"/>
+			<AppRace2Code data=""/>
+			<AppRace3Code data=""/>
+			<AppRace4Code data=""/>
+			<AppRace5Code data=""/>
+			<CoAppRace1Code data="8"/>
+			<CoAppRace2Code data=""/>
+			<CoAppRace3Code data=""/>
+			<CoAppRace4Code data=""/>
+			<CoAppRace5Code data=""/>
+			<AppSexCode data="2"/>
+			<CoAppSexCode data="5"/>
+			<AppIncomeAmount data="0078"/>
+			<PurchaserTypeCode data=""/>
+			<DenialReason1Code data=""/>
+			<DenialReason2Code data=""/>
+			<DenialReason3Code data=""/>
+			<RateSpread data="NA"/>
+			<HOEPAStatus data="2"/>
+			<LienStatus data="2"/>
+		</HMDA>
+		<DisclosedData>
+			<APR data="2.00"/>
+			<FinanceChargeAmount data="279903.19"/>
+			<FinancedAmount data="173601.02"/>
+			<TotalPaymentAmount data="453504.21"/>
+			<YSPAmount data=""/>
+			<PaymentChangeSchedule/>
+		</DisclosedData>
+		<LenderProfileData return="true" source="USER">
+			<ProfileDetail type="default" homeState="" lenderEntityType="STLIC" mflFlag="false"/>
+			<ProfileDetail type="effective" applicationRuleID="" homeState="" lenderEntityType="STLIC" mflFlag="false">
+				<StatutoryElection selected="false"/>
+				<Exportation targetState="false"/>
+			</ProfileDetail>
+		</LenderProfileData>
+		<PrepaymentPenaltyPlan>
+			<PPPFlag data="true"/>
+			<PlanCode data="" code="" sds=""/>
+			<CustomFlag data="false"/>
+			<WaiverFlag data=""/>
+			<MaxTermLimit data="36"/>
+			<PrepayOption data=""/>
+			<PPPEffectiveDate data="" sds=""/>
+			<PPPCalcStartDate data="" sds=""/>
+			<PPPCalcStartDateEvent data="" sds=""/>
+			<PPPEffectiveDateEvent data="First Payment Date" sds=""/>
+			<PlanData sds="">
+				<PlanPeriod id="1">
+					<CompareCode data="Equal"/>
+					<PPPMonths data="5"/>
+					<CalcData>
+						<CalcMethod data="Standard"/>
+						<PPPPercent data="5"/>
+						<PPPCalcRate data=""/>
+						<FlatPPPAmount data=""/>
+						<NumberOfCalcMonths data=""/>
+						<InterestIndicator data=""/>
+						<RateBasisCode data="Outstanding Balance"/>
+						<AggregateBasisCode data="Original Loan Amount"/>
+						<AggregateLimitPercent data="20"/>
+					</CalcData>
+					</PlanPeriod>
+				<PlanPeriod id="2">
+					<CompareCode data="Equal"/>
+					<PPPMonths data="5"/>
+					<CalcData>
+						<CalcMethod data="Standard"/>
+						<PPPPercent data="5"/>
+						<PPPCalcRate data=""/>
+						<FlatPPPAmount data=""/>
+						<NumberOfCalcMonths data=""/>
+						<InterestIndicator data=""/>
+						<RateBasisCode data="Outstanding Balance"/>
+						<AggregateBasisCode data="Original Loan Amount"/>
+						<AggregateLimitPercent data="20"/>
+					</CalcData>
+				</PlanPeriod>
+			</PlanData>
+		</PrepaymentPenaltyPlan>
+	</ServiceData>
+</DataPackage>

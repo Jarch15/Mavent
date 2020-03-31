@@ -1,0 +1,8 @@
+[/Loan/Applications/Application/Borrower/EmailAddressText],[EQUALS],[Hillary@yahoo.com],[1],[JIRA:12345]
+[/Loan/Applications/Application/Borrower/AgeAtApplicationYearsCount],[EQUALS],[66],[1],[JIRA:12345]
+[/Loan/Applications/Application/Assets/Asset[*]/AssetType],[EQUALS],[LifeInsurance|RetirementFund|NetWorthOfBusinessOwned|Stock|Automobile|CashOnHand|CashOnHand|OtherNonLiquidAssets],[8],[JIRA:12345]
+[/Loan/Applications/Application/Assets/Asset[*]/AssetType],[CONTAINS],[CashOnHand],[2],[JIRA:12345]
+[/Loan/UndiscountedRate],[ISEMPTY],[false],[],[JIRA:12345]
+[/Loan/Applications/Application/Assets/Asset[*]/AssetIndex],[ISEMPTY],[true],[],[]
+[/Loan/Applications/Application/Borrower/AgeAtApplicationYearsCount],[GREATERTHAN],[65],[1],[]
+[/Loan/Applications/Application/Borrower/AgeAtApplicationYearsCount],[LESSTHAN],[69],[1],[]

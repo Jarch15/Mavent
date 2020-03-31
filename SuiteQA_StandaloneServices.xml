@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Standalone Synchronous Services Test Cases" allow-return-values="true" parallel="false" verbose="1" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.elliemae.core.Reporter.CustomReporter" />
+		<listener class-name="com.elliemae.core.listener.RetryListener"/>
+		<listener class-name="com.elliemae.core.listener.PostTestListener"/>
+		<listener class-name="com.elliemae.core.listener.SummaryReport"/>
+		<listener class-name="com.elliemae.core.listener.TestStatistics"/>		
+	</listeners>
+
+	<parameter name="environmentName" value="QA3"></parameter>
+	<parameter name="environmentUserName" value=""></parameter>
+	<parameter name="environmentPassword" value=""></parameter>
+	<parameter name="environmentClientID" value="BE11170520"></parameter>
+	<parameter name="jenkinsJobName" value=""></parameter>
+	<parameter name="updateTestStatusToJIRA" value="no"></parameter>
+	<parameter name="jiraProjectName" value="EMATF"></parameter>	
+	<parameter name="testCycleVersion" value="ATF 2.3"></parameter>	
+	
+		<!--  Batch Review  -->
+		<test name="BatchReviewTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.BatchReviewTest">	
+					<methods>
+						<include name="batchReview"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+
+		<!--  Index Lookup -->
+		<test name="IndexLookupTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.IndexLookupTest">	
+					<methods>
+						<include name="indexLookup"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<!--  NMLS Review -->
+		<test name="NMLSReviewTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.NMLSReviewTest">	
+					<methods>
+						<include name="nmlsReview"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<!--  NMLS Search -->
+		<test name="NMLSSearchTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.NMLSSearchTest">	
+					<methods>
+						<include name="nmlsSearch"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>	
+		
+		<!--  Residual Income Lookup -->
+		<test name="ResidualIncomeLookUpTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.ResidualIncomeLookUpTest">	
+					<methods>
+						<include name="getResidualIncomeThreshold"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>						
+		
+
+		<!--  Admin Setup -->
+		<test name="AdminMobileTest">
+			<parameter name="platform" value="API"/>
+			<classes>			
+				<class name="com.elliemae.testcases.syncservices.AdminMobileTest">	
+					<methods>
+						<include name="adminSetup"></include>
+					</methods>				
+				</class>						
+			</classes>
+		</test>				
+		
+
+</suite>
+
+
+

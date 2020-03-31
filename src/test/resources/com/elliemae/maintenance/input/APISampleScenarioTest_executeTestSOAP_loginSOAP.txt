@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:plat="http://www.elliemae.com/encompass/platform">
+   <soapenv:Header>$Header</soapenv:Header>
+   <soapenv:Body>
+      <plat:AuthenticateClientRequest>
+         <plat:ClientCredentials>
+            <plat:Password>password</plat:Password>
+            <plat:Realm>dev15210000361</plat:Realm>
+            <plat:UserName>devadmin</plat:UserName>
+         </plat:ClientCredentials>
+      </plat:AuthenticateClientRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

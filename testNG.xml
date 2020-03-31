@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Dadadriver suite" parallel="false"  > 
+<!-- suite name="Suite Name" --> 
+
+
+        <suite-files>
+        	   <suite-file path="./SuiteQA.xml" />
+               <suite-file path="./SuitePROD.xml" />
+               <suite-file path="./SuiteDR.xml" />
+        </suite-files>
+
+
+</suite>

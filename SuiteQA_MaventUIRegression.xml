@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mavent UI Regression Test Suite" allow-return-values="true" parallel="false" verbose="1" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.elliemae.core.Reporter.CustomReporter" />
+		<listener class-name="com.elliemae.core.listener.RetryListener"/>
+		<listener class-name="com.elliemae.core.listener.PostTestListener"/>
+		<listener class-name="com.elliemae.core.listener.SummaryReport"/>
+		<listener class-name="com.elliemae.core.listener.TestStatistics"/>		
+	</listeners>
+
+	<parameter name="environmentName" value="QA4"></parameter>
+	<parameter name="environmentUserName" value=""></parameter>
+	<parameter name="environmentPassword" value=""></parameter>
+	<parameter name="environmentClientID" value="BE11170520"></parameter>
+	<parameter name="jenkinsJobName" value=""></parameter>
+	<parameter name="updateTestStatusToJIRA" value="no"></parameter>
+	<parameter name="jiraProjectName" value="EMATF"></parameter>	
+	<parameter name="testCycleVersion" value="ATF 2.3"></parameter>	
+
+	<test name="MaventUIRegressionTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUIRegressionTest">	
+				<methods>					
+					<include name="verifyMaventUI"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>
+	
+	<test name="MaventUIFeesPerformanceTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUIFeesPerformanceTest">	
+				<methods>					
+					<include name="verifyMaventUI"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>
+	
+	
+	<test name="MaventTabTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUITabTest">	
+				<methods>					
+					<include name="verifyMaventTab"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>
+	
+	
+	<test name="MaventImportLoansTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUIImportLoansTest">	
+				<methods>					
+					<include name="verifyMaventImportLoans"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>	
+	
+	<test name="MaventUIVerifyUserAccessTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUIVerifyUserAccessTest">	
+				<methods>					
+					<include name="verifyTestUserAccess"></include>
+					<include name="verifyQTPManagementUserAccess"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>	
+	
+	
+	<test name="MaventTabTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUITabTest">	
+				<methods>					
+					<include name="verifyMaventTab"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>	
+	
+	
+	<test name="MaventTabTest">
+		<parameter name="platform" value="Web"/>
+		<parameter name="browserName" value="ie"/>	
+		<classes>
+			<class name="com.elliemae.testcases.maventui.MaventUIVerifyFooterTest">	
+				<methods>					
+					<include name="verifyMaventTab"></include>
+				</methods>				
+			</class>			
+		</classes>
+	</test>	
+	
+	
+
+</suite>
+
+
+
